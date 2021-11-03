@@ -3,7 +3,7 @@ ada-2021-project-sars created by GitHub Classroom
 
 
 - Topic Modeling (cluster on certain topics) - use all the topics we can find from the parsing (for the baseline) (Simon & Saad)
-- After the Topic Modeling: 
+- After the Topic Modeling: extract relevant information from quotes for each topic (such as context, sentiment, etc) And infer some conclusions based on the infered information. Focuse on the rest of the information in each quotation (Raphael & Antoine)
 - Once the topic modeling is done: 
 
 
