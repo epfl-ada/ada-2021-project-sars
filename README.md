@@ -2,6 +2,11 @@
 ada-2021-project-sars created by GitHub Classroom
 
 
+- Topic Modeling (cluster on certain topics) - use all the topics we can find from the parsing (for the baseline) (Simon & Saad)
+- After the Topic Modeling: 
+- Once the topic modeling is done: 
+
+
 # README - What we need to do
 Readme.md file containing the detailed project proposal (up to 1000 words). Your README.md should contain:
 
