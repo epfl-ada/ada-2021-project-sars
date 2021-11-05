@@ -1,6 +1,12 @@
 # ada-2021-project-sars
 ada-2021-project-sars created by GitHub Classroom
 
+**For Sunday**: 
+* Simon: Build training data set NYTimes
+* Saad: Build the model for topic modelling
+* Antoine: Build the external timelines
+* Raphael: Try to build different functions for popularity measurements. 
+
 ## Introduction & Context
 
 ## Questions we want to answer and analyse
