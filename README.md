@@ -9,24 +9,20 @@ ada-2021-project-sars created by GitHub Classroom
 
 ## Introduction & Context
 
+**Write a Small Abstract Here**
+
 ## Questions we want to answer and analyse
-* **First Part**: Are the topics covered by the media in the years 2015-2020 an accurate representation of the key events that occured within these years?
+* **First Part**: Are the topics covered by the media in the years 2015-2020 an accurate representation of the key events that occured within these years (we focus on four topics: Politics, Sports and Technology)?
 * **Second Part**: What are the proportions of key events covered in the newspaper related to each topic? Do media tend to cover more one topic over another? 
-* **Third Part**: Analysing Climate coverage. Is 
-* **
-
-
-
-* We would like to build a timeline of media concerns relating to four specific topics over the 5 course years: sports, politics, climate, technology. From there, we would like to study the following question: do the main concerns related to the four topics covered by the media between 2015 and 2020 accurately represent the key events that occurred during this timeline.  
-* 
-* 
-*
-* Final Objective: 
+* **Third Part**: If any bias is found in part 2, what could cause such bias? Can we infer some possible conclusion by looking at external data sets - such as for instance, focusing on the New York Times Newspaper, can we draw a correlation between monthly income and number of topics covered in a month?)
 
 ## Additional Datasets
 
 ## Methodology
-*  (1) Topic Modeling to find the quotes for the four topics defined.
+1. **Topic Modeling**: Our first work relates to building an appropriate topic modeling algorithm that will be able to classify each quote in the quotebank dataset into one of the four aforementioned topics. The main challenges of this task are the following: first, finding/building a training data set that will appropriately train our topic modeling classifier. To do so we need to find data that includes distinctive quotes from each of the four topics we are looking for. The second challenge relates to building the model itself. 
+   1.1.     
+3. 
+4.   to find the quotes for the four topics defined.
     *   First metric to determine key events per topic: aggregate the time of quotes in a month. Find the number of quotes in each specific timeframe. This distribution will tell us if something special happened in this month for a certain topic. So the y axis will be the month, the x axis will be the month.
     * This gives us a timeline of key events but does not give us information related to the actual events (we have clusters of quotes for each month but do not know what the cluster refers to). 
     *  Plot/Aggregate the quotes per topics for each specific topic in a single month. That will help us determine if something specific happened in a month - relate big event to the number of quotes clustered in a given timeframe.  
