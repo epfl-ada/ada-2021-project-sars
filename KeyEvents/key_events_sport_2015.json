@@ -1,0 +1,331 @@
+[
+ {
+   "Date": "Jan 9-31",
+   "Sport": "Football (Soccer)",
+   "Event": "Asian Cup",
+   "Location": "Australia",
+   "Results": "The hosts Australia beat South Korea in the final 2-1 (aet)"
+ },
+ {
+   "Date": "Jan 17-Feb 8",
+   "Sport": "Football (Soccer)",
+   "Event": "African Cup of Nations",
+   "Location": "Equatorial Guinea",
+   "Results": "The Ivory Coast won the tournament for their 2nd title, defeating Ghana 9–8 in a penalty shoot-out."
+ },
+ {
+   "Date": "Jan 19-Feb 1",
+   "Sport": "Tennis",
+   "Event": "Australia Open",
+   "Location": "Melbourne",
+   "Results": "Djokovic won a record fifth Australian Open title, and Serena Williams won her sixth title."
+ },
+ {
+   "Date": "Jan 21-Feb 8",
+   "Sport": "Multi-sports",
+   "Event": "World Masters Games (Winter)",
+   "Location": "Quebec City, Canada",
+   "Results": "nearly 1500 athletes competed"
+ },
+ {
+   "Date": "Feb 1",
+   "Sport": "Gridiron/Football",
+   "Event": "Super Bowl",
+   "Location": "Arizona",
+   "Results": "won by the New England Patriots, who beat the Seattle Seahawks 28 to 24"
+ },
+ {
+   "Date": "Feb 2-15",
+   "Sport": "Skiing",
+   "Event": "World Ski Championships",
+   "Location": "Vail/Beaver Creek, CO, USA",
+   "Results": "Athletes from Austria dominated the medal tally"
+ },
+ {
+   "Date": "Feb 4-14",
+   "Sport": "Multi-sports",
+   "Event": "Winter Universiade",
+   "Location": "Granada, Spain",
+   "Results": "42 countries participated"
+ },
+ {
+   "Date": "Feb 14-Mar 29",
+   "Sport": "Cricket",
+   "Event": "World Cup",
+   "Location": "Australia & New Zealand",
+   "Results": "Australia defeated New Zealand in the final for their 5th title."
+ },
+ {
+   "Date": "Feb 18-22",
+   "Sport": "Cycling",
+   "Event": "World Track Championships",
+   "Location": "Saint-Quentin-en-Yvelines, France",
+   "Results": "France led the medal tally with 5 golds, but Australia won the most medals overall (11)"
+ },
+ {
+   "Date": "Apr 6-12",
+   "Sport": "Golf",
+   "Event": "Masters",
+   "Location": "Augusta, USA",
+   "Results": "Jordan Spieth led from the start, shooting a record-tying 270 (18 under) to win his first major at the age of 21."
+ },
+ {
+   "Date": "Apr 11",
+   "Sport": "Horse Racing",
+   "Event": "Grand National",
+   "Location": "Aintree Racecourse in Liverpool",
+   "Results": "won by Many Clouds, ridden by Leighton Aspell , Aspell's 2nd consecutive Grand National victory."
+ },
+ {
+   "Date": "May 2",
+   "Sport": "Horse Racing",
+   "Event": "Kentucky Derby",
+   "Location": "Louisville, Kentucky, US",
+   "Results": "Won by American Pharaoh, the 4th win by trainer Bob Baffert and the third win for jockey Victor Espinoza."
+ },
+ {
+   "Date": "May 24-June 7",
+   "Sport": "Tennis",
+   "Event": "French Open",
+   "Location": "Paris, France",
+   "Results": "Serena Williams won her third title. Nadal's winning streak was beaten by Djokovic in the quarters, who was then beaten by Wawrinka in the final."
+ },
+ {
+   "Date": "May 30",
+   "Sport": "Football (Soccer)",
+   "Event": "FA Cup final",
+   "Location": "Wembley Stadium, London",
+   "Results": "Arsenal defeated Aston Villa 4–0"
+ },
+ {
+   "Date": "Jun 3-15",
+   "Sport": "Ice Hockey",
+   "Event": "Stanley Cup finals",
+   "Location": "Tampa Bay and Chicago, USA",
+   "Results": "Chicago Blackhawks defeated Tampa Bay Lightning 4 games to 2, to win their 6th championship in franchise history, and their 3rd title in 6 seasons."
+ },
+ {
+   "Date": "Jun 4-16",
+   "Sport": "Basketball",
+   "Event": "NBA Finals",
+   "Location": "Cleveland, Ohio & Oakland, California",
+   "Results": "Golden State Warriors capped off memorable season with its first championship in 40 years, defeating Cleveland Cavaliers 4-2."
+ },
+ {
+   "Date": "Jun 5-16",
+   "Sport": "Multi-sports",
+   "Event": "South-East Asian Games",
+   "Location": "Singapore",
+   "Results": "370 athletes from 11 nations competed in the Games, with 402 events in 36 sports. Thailand won the most gold medals, hosts Singapore won the most medals overall."
+ },
+ {
+   "Date": "Jun 6",
+   "Sport": "Football (Soccer)",
+   "Event": "UEFA Champions League final",
+   "Location": "Olympiastadion in Berlin, Germany",
+   "Results": "Barcelona beat Juventus 3–1 to gain their fifth trophy"
+ },
+ {
+   "Date": "Jun 6-Jul 5",
+   "Sport": "Football (Soccer)",
+   "Event": "Women's World Cup",
+   "Location": "Canada",
+   "Results": "The winners were the USA, beating Japan 5-2, avenging their loss to Japan on penalties in the 2011 final."
+ },
+ {
+   "Date": "Jun 12-28",
+   "Sport": "Multi-sports",
+   "Event": "European Games",
+   "Location": "Baku, Azerbaijan",
+   "Results": "The inaugural event featured almost 6,000 athletes from 50 countries competing in 20 sports. Russia easily led the medal tally."
+ },
+ {
+   "Date": "Jun 18-21",
+   "Sport": "Golf",
+   "Event": "US Open",
+   "Location": "Chambers Bay, University Place, Washington.",
+   "Results": "Jordan Spieth won his first U.S. Open and consecutive major titles."
+ },
+ {
+   "Date": "Jun 26-Jul 5",
+   "Sport": "Multi-sports",
+   "Event": "World Police and Fire Games",
+   "Location": "Fairfax County, Virginia, USA",
+   "Results": "US athletes won the most medals, as did Law Enforcement over Firefighters."
+ },
+ {
+   "Date": "Jun 29-Jul 12",
+   "Sport": "Tennis",
+   "Event": "Wimbledon",
+   "Location": "London, England",
+   "Results": "Serbian Novak Djokovic won his 3rd title in men's singles, defending his title from 2014. Serena Williams won her sixth Wimbledon and 21st major title, defeating first-time finalist Garbiñe Muguruza."
+ },
+ {
+   "Date": "Jul 3-14",
+   "Sport": "Multi-sports",
+   "Event": "Summer Universiade",
+   "Location": "Gwangju, South Korea",
+   "Results": "South Korea won the most golds, but Russia won the most medals overall."
+ },
+ {
+   "Date": "July 4-18",
+   "Sport": "Multi-sports",
+   "Event": "Pacific Games",
+   "Location": "Port Moresby, Papua New Guinea",
+   "Results": "24 countries took part with the inclusion of Australia and New Zealand for the first time in the history of the Games, in 28 sports. Papua New Guinea led the medal table."
+ },
+ {
+   "Date": "Jul 4-26",
+   "Sport": "Cycling",
+   "Event": "Tour de France",
+   "Location": "France 2015",
+   "Results": "The winner was Chris Froome of Team Sky, his second win in three years."
+ },
+ {
+   "Date": "Jul 10-26",
+   "Sport": "Multi-sports",
+   "Event": "Pan American Games",
+   "Location": "Toronto",
+   "Results": "over 6000 athletes representing 41 National Olympic Committees in 36 sports. USA led the medal table."
+ },
+ {
+   "Date": "Jul 16–19",
+   "Sport": "Golf",
+   "Event": "British Open",
+   "Location": "Old Course, St Andrews, Scotland",
+   "Results": "American Zach Johnson claimed his 2nd major title winning in a 3-way play off."
+ },
+ {
+   "Date": "Jul 24-Aug 9",
+   "Sport": "Swimming",
+   "Event": "World Aquatics Championships",
+   "Location": "Kazan, Russia",
+   "Results": "Most number of gold medals won was by China, the United States then Russia, the first time the US did not finish in first place in the medal standings since 2001. 12 world records were set."
+ },
+ {
+   "Date": "Jul 25-Aug 2",
+   "Sport": "Multi-sports",
+   "Event": "Special Olympics World Summer Games",
+   "Location": "Los Angeles, California",
+   "Results": "a huge event with 6,500 athletes"
+ },
+ {
+   "Date": "Aug 7-16",
+   "Sport": "Netball",
+   "Event": "World Championships",
+   "Location": "Sydney, Australia",
+   "Results": "Australia defeated New Zealand 58-55 to claim its third consecutive title"
+ },
+ {
+   "Date": "Aug 13-16",
+   "Sport": "Golf",
+   "Event": "US PGA",
+   "Location": "Whistling Straits, Wisconsin",
+   "Results": "Australia's Jason Day claimed his first major win, finishing with a score of 20-under par, the lowest any player in the history of the sport has ever finished to par in a major championship."
+ },
+ {
+   "Date": "Aug 22-30",
+   "Sport": "Athletics",
+   "Event": "World Championships",
+   "Location": "Beijing National Stadium, Beijing China.",
+   "Results": "The highlight was the showdown between sprinters Usain Bolt and Justin Gatlin, with Bolt the surprise winner in both the 100 and 200m. Kenya topped the medal table for the first time."
+ },
+ {
+   "Date": "Aug 31-Sep 13",
+   "Sport": "Tennis",
+   "Event": "US Open",
+   "Location": "New York",
+   "Results": "In the men's singles, Novak Djokovic beat Roger Federer in the final. In the women's event, three-time defending champion Serena Williams was looking to win her first grand slam, but lost in the semifinals to unseeded Roberta Vinci. Vinci subsequently was beaten in the final by Flavia Pennetta, who won her first Grand Slam championship."
+ },
+ {
+   "Date": "Sep 4-19",
+   "Sport": "Multi-sports",
+   "Event": "All Africa Games",
+   "Location": "Brazzaville, Republic of the Congo",
+   "Results": "Egypt led the meal table ahead of Nigeria and South Africa"
+ },
+ {
+   "Date": "Sep 18-Oct 31",
+   "Sport": "Rugby",
+   "Event": "World Cup",
+   "Location": "England",
+   "Results": "won by New Zealand, a record third World Cup tournament win. They beat Australia in the final 34 to 17."
+ },
+ {
+   "Date": "Sep 19-27",
+   "Sport": "Cycling",
+   "Event": "Road World Championships",
+   "Location": "Richmond, USA",
+   "Results": "The USA were the most successful country with 8 medals."
+ },
+ {
+   "Date": "Oct 1-11",
+   "Sport": "Multi-sports",
+   "Event": "European Masters Games",
+   "Location": "Nice, France",
+   "Results": ""
+ },
+ {
+   "Date": "Oct 2-11",
+   "Sport": "Multi-sports",
+   "Event": "6th CISM Summer Military World Games",
+   "Location": "Mungyeong, South Korea",
+   "Results": ""
+ },
+ {
+   "Date": "Oct 5-15",
+   "Sport": "Boxing",
+   "Event": "AIBA World Championships",
+   "Location": "Doha, Qatar",
+   "Results": "Boxers in 10 weight categories from 73 countries. The most successful country was Cuba with 4 golds."
+ },
+ {
+   "Date": "Oct 8-11",
+   "Sport": "Golf",
+   "Event": "Presidents Cup",
+   "Location": "Jack Nicklaus Golf Club Korea, Incheon, South Korea",
+   "Results": "The United States won for the sixth successive time with a 15½–14½ victory over the International team"
+ },
+ {
+   "Date": "Oct 23-Nov 1",
+   "Sport": "Gymnastics",
+   "Event": "world championships (artistic)",
+   "Location": "Glasgow, UK",
+   "Results": "The US lead the medal table"
+ },
+ {
+   "Date": "Oct 27-Nov 1",
+   "Sport": "Baseball",
+   "Event": "World Series",
+   "Location": "New York & Kansas",
+   "Results": "Played between between New York Mets and Kansas City Royals. The Royals won the series 4 games to 1."
+ },
+ {
+   "Date": "Nov 3",
+   "Sport": "Horse Racing",
+   "Event": "Melbourne Cup",
+   "Location": "Victoria, Australia",
+   "Results": "Michelle Payne had a historic win on Prince of Penzance, a 100-1 long-shot, becoming the first female jockey to win the race."
+ },
+ {
+   "Date": "Nov 8-21",
+   "Sport": "Baseball",
+   "Event": "WBSC Premier 12",
+   "Location": "Taiwan and Japan",
+   "Results": "In the final, South Korea defeated United States 8–0 to win the first WBSC Premier12 title."
+ },
+ {
+   "Date": "Nov 20–29",
+   "Sport": "Weightlifting",
+   "Event": "IWF World Championships",
+   "Location": "Houston, USA",
+   "Results": "748 athletes, 113 federations and more than 105 countries. The leading nation was China with 6 golds."
+ },
+ {
+   "Date": "Dec 1-12",
+   "Sport": "Air Sports",
+   "Event": "World Air Sports Games",
+   "Location": "Dubai, United Arab Emirates",
+   "Results": ""
+ }
+]

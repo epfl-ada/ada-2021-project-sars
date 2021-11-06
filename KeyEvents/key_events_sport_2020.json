@@ -1,0 +1,149 @@
+[
+ {
+   "Date": "Jan 20-Feb 2",
+   "Sport": "Tennis",
+   "Event": "Australia Open",
+   "Location": "Melbourne, Australia",
+   "Results": "Novak Djokovic successfully defended his title, defeating Dominic Thiem to win the tournament a record-extending 8th time. Sofia Kenin won her first grand slam title."
+ },
+ {
+   "Date": "Feb 1 - Mar 14",
+   "Sport": "Rugby Union",
+   "Event": "Six Nations",
+   "Location": "UK, Ireland, France & Italy",
+   "Results": "Won by England, their 39th title overall (including shared titles), drawing level with the record Wales set in 2019."
+ },
+ {
+   "Date": "Feb 2",
+   "Sport": "Gridiron/Football",
+   "Event": "Super Bowl",
+   "Location": "Miami Gardens, Florida",
+   "Results": "The Chiefs won 32-20 in a thrilling comeback, after trailing 20-10 at half time. It was the Chiefs first Super Bowl win in 50 years."
+ },
+ {
+   "Date": "Feb 21 – 8 Mar",
+   "Sport": "Cricket",
+   "Event": "ICC World T20 (women)",
+   "Location": "Australia",
+   "Results": "Defending champions Australian won, crushing India in the final."
+ },
+ {
+   "Date": "Feb 26 - 1 Mar",
+   "Sport": "Cycling",
+   "Event": "World Track Championships",
+   "Location": "Berlin, Germany",
+   "Results": "The Netehrlands and Germany topped the medal table"
+ },
+ {
+   "Date": "July 31 - Aug 16 (postponed from April)",
+   "Sport": "Snooker",
+   "Event": "World Snooker Championship",
+   "Location": "Crucible Theatre in Sheffield, England",
+   "Results": "Ronnie O'Sullivan won his sixth world title, defeating Kyren Wilson 18–8 in the final."
+ },
+ {
+   "Date": "Aug 1 (postponed, from April)",
+   "Sport": "Football (Soccer)",
+   "Event": "FA Cup final",
+   "Location": "Wembley Stadium, London",
+   "Results": "Arsenal beat Chelsea 2-1"
+ },
+ {
+   "Date": "Aug 6-9 (postponed from May 14-17)",
+   "Sport": "Golf",
+   "Event": "US PGA",
+   "Location": "TPC Harding Park, San Francisco, California",
+   "Results": "Collin Morikawa won on debut, and in his 2nd major, beating Paul Casey and Dustin Johnson by 2 strokes."
+ },
+ {
+   "Date": "Aug 23 (postponed from May 24)",
+   "Sport": "Auto Racing",
+   "Event": "Indianapolis 500",
+   "Location": "Indianapolis, USA",
+   "Results": "Takuma Sato won the race for Rahal Letterman Lanigan Racing, his 2nd win (he also won in 2017)."
+ },
+ {
+   "Date": "Aug 23 (postponed from May 30)",
+   "Sport": "Football (Soccer)",
+   "Event": "UEFA Champions League Final",
+   "Location": "Estádio da Luz in Lisbon, Portugal",
+   "Results": "German club Bayern Munich beat French club Paris Saint-Germain, 1-0."
+ },
+ {
+   "Date": "Aug 29 - Sep 20 (postponed from June)",
+   "Sport": "Cycling",
+   "Event": "Tour de France",
+   "Location": "France",
+   "Results": "The general classification was won for the first time by a Slovenian, Tadej Pogačar, with his fellow countryman Primož Roglič second. Australian Richie Porte came third."
+ },
+ {
+   "Date": "Aug 31 - Sep 13",
+   "Sport": "Tennis",
+   "Event": "US Open",
+   "Location": "New York, USA",
+   "Results": "Dominic Thiem won his first Grand Slam title, defeating first time Grand Slam finalist Alexander Zverev. Naomi Osaka won the women's singles title, defeating Victoria Azarenka for her 3rd Grand Slam title."
+ },
+ {
+   "Date": "Sep 5 (postponed from May 2)",
+   "Sport": "Horse Racing",
+   "Event": "Kentucky Derby",
+   "Location": "Louisville, Kentucky, US",
+   "Results": "The race was won by Authentic, and trainer Bob Baffert tied the record for most Kentucky Derby wins, at six."
+ },
+ {
+   "Date": "Sep 17-20 (postponed from June)",
+   "Sport": "Golf",
+   "Event": "US Open",
+   "Location": "Winged Foot Golf Club, Mamaroneck, New York",
+   "Results": "Bryson DeChambeau won his first major title"
+ },
+ {
+   "Date": "Sept 19-20 (postponed from Jun 13-14)",
+   "Sport": "Auto Racing",
+   "Event": "88th 24 Hours of Le Mans",
+   "Location": "Circuit de la Sarthe, Le Mans, France",
+   "Results": "Won by No. 8 Toyota team, the drivers Sébastien Buemi, Brendon Hartley and Kazuki Nakajima completing 387 laps."
+ },
+ {
+   "Date": "Sep 19 - Sep 28 (postponed from June)",
+   "Sport": "Ice Hockey",
+   "Event": "Stanley Cup finals",
+   "Location": "Rogers Place, Edmonton, Alberta, Canada",
+   "Results": "Tampa Bay Lightning beat the Dallas Stars 4-2, for their 2nd championship in franchise history."
+ },
+ {
+   "Date": "Sep 24-27",
+   "Sport": "Cycling",
+   "Event": "UCI Road World Championships",
+   "Location": "Aigle and Martigny, Switzerland Imola, Italy",
+   "Results": "Anna van der Breggen from the Netherlands won both the female road race and time trial, the men's events were won by Julian Alaphilippe (FRA) and Filippo Ganna (ITA)."
+ },
+ {
+   "Date": "Sep 27-Oct 11 (postponed from May)",
+   "Sport": "Tennis",
+   "Event": "French Open",
+   "Location": "Paris, France",
+   "Results": "The men's singles title was won for the 13th time by Rafael Nadal, defeating Novak Djokovic. The women's singles title was won by Iga Świątek, winning her maiden WTA singles title, defeating Sofia Kenin."
+ },
+ {
+   "Date": "Sep 30 – Oct 11 (postponed from June)",
+   "Sport": "Basketball",
+   "Event": "NBA Finals",
+   "Location": "ESPN Wide World of Sports Complex, Walt Disney World, Florida, USA",
+   "Results": "Los Angeles Lakers defeated Miami Heat, 4–2, winning their first NBA championship in ten years."
+ },
+ {
+   "Date": "Oct 20-28",
+   "Sport": "Baseball",
+   "Event": "World Series",
+   "Location": "Globe Life Field in Arlington, Texas",
+   "Results": "Los Angeles Dodgers defeated the Tampa Bay Rays 4-2 for their first championship in 32 years."
+ },
+ {
+   "Date": "Nov 12-15 (postponed from April)",
+   "Sport": "Golf",
+   "Event": "Masters",
+   "Location": "Augusta, USA",
+   "Results": "Dustin Johnson won with a record score of 268, 20-under-par, five strokes ahead of Im Sung-jae and Cameron Smith"
+ }
+]

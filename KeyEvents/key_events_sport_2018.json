@@ -1,0 +1,345 @@
+[
+ {
+   "Date": "Jan 15-28",
+   "Sport": "Tennis",
+   "Event": "Australia Open",
+   "Location": "Melbourne, Australia",
+   "Results": "Roger Federer won his 6th title, beating Marin Čilić. Caroline Wozniacki her first Grand Slam defeating Simona Halep in the final."
+ },
+ {
+   "Date": "Jan 25-28",
+   "Sport": "Extreme Sports",
+   "Event": "Winter X Games 22",
+   "Location": "Aspen, Colorado, USA",
+   "Results": "There were 6 skiing events, 7 snowboarding events, 2 snowmobiling events and 2 snow bike events, with the host nation USA winning 24 medals, and Canada second with 8 medals."
+ },
+ {
+   "Date": "Feb 4",
+   "Sport": "Gridiron/Football",
+   "Event": "Super Bowl",
+   "Location": "Minneapolis, Minnesota",
+   "Results": "The Philadelphia Eagles won their first Super Bowl, defeating the defending champions New England Patriots, 41–33."
+ },
+ {
+   "Date": "Feb 9-25",
+   "Sport": "Multi-sports",
+   "Event": "Winter Olympics",
+   "Location": "Pyeongchang, South Korea",
+   "Results": "Norway and Germany tied with 14 gold medals each, though Norway had more total medals."
+ },
+ {
+   "Date": "Feb 28 - Mar 4",
+   "Sport": "Cycling",
+   "Event": "World Track Championships",
+   "Location": "Apeldoorn, The Netherlands",
+   "Results": "The leading nation was the Netherlands (12 medals), followed by Germany, Great Britain and Australia (all on 6 medals)"
+ },
+ {
+   "Date": "March 9-18",
+   "Sport": "Multi-sports",
+   "Event": "Winter Paralympics",
+   "Location": "Pyeongchang, South Korea",
+   "Results": "The USA topped the medal table for the 2nd time with 36 total medals (13 gold). Host nation South Korea finished 16th including taking its first gold."
+ },
+ {
+   "Date": "Apr 5-8",
+   "Sport": "Golf",
+   "Event": "Masters",
+   "Location": "Augusta, USA",
+   "Results": "US player Patrick Reed won his first major title, one stroke ahead Rickie Fowler."
+ },
+ {
+   "Date": "April 4-15",
+   "Sport": "Multi-sports",
+   "Event": "Commonwealth Games",
+   "Location": "Gold Coast, Australia",
+   "Results": "Over 4,400 athletes from 71 Commonwealth Games Associations took part in the event, with Australia clearly leading the medal table with 80 gold medals (198 total), followed by England and India."
+ },
+ {
+   "Date": "Apr 14",
+   "Sport": "Horse Racing",
+   "Event": "Grand National",
+   "Location": "Aintree Racecourse in Liverpool",
+   "Results": "The race was won by 10/1 shot Tiger Roll in a photo finish"
+ },
+ {
+   "Date": "May 5",
+   "Sport": "Horse Racing",
+   "Event": "Kentucky Derby",
+   "Location": "Louisville, Kentucky, US",
+   "Results": "The race was won by the favorite Justify."
+ },
+ {
+   "Date": "May 4-20",
+   "Sport": "Ice Hockey",
+   "Event": "IIHF World Championship",
+   "Location": "Copenhagen, Herning\tDenmark",
+   "Results": "Sweden won their second consecutive and eleventh overall title after defeating Switzerland in the final"
+ },
+ {
+   "Date": "May 19",
+   "Sport": "Football (Soccer)",
+   "Event": "FA Cup final",
+   "Location": "Wembley Stadium, London",
+   "Results": "Chelsea beat Manchester United 1-0. Chelsea lost to Arsenal in 2017."
+ },
+ {
+   "Date": "May 26",
+   "Sport": "Football (Soccer)",
+   "Event": "UEFA Champions League Final",
+   "Location": "NSC Olimpiyskiy Stadium, Kiev, Ukraine",
+   "Results": "Real Madrid beat Liverpool in the final 3–1, for their third consecutive and 13th overall title."
+ },
+ {
+   "Date": "May 26-June 8",
+   "Sport": "Multi-Sports",
+   "Event": "South American Games",
+   "Location": "Cochabamba, Bolivia",
+   "Results": "Over 400 athletes from 14 countries participated. Colombia led the medal table, followed by Brazil."
+ },
+ {
+   "Date": "May 27",
+   "Sport": "Auto Racing",
+   "Event": "Monaco Grand Prix",
+   "Location": "Monte Carlo, Monaco",
+   "Results": "The race was won by Daniel Ricciardo (Red Bull) followed by Sebastian Vettel (Ferrari) and Lewis Hamilton (Mercedes)."
+ },
+ {
+   "Date": "May 27-Jun 10",
+   "Sport": "Tennis",
+   "Event": "French Open",
+   "Location": "Paris, France",
+   "Results": "The men's singles was won by defending champion Rafael Nadal, his 11th French Open title. Simona Halep won her first Grand Slam title in Women's Singles."
+ },
+ {
+   "Date": "May 28 – Jun 7",
+   "Sport": "Ice Hockey",
+   "Event": "Stanley Cup finals",
+   "Location": "Washington DC and Las Vegas, USA",
+   "Results": "The Washington Capitals defeated Vegas Golden Knights 4-1 to win their first championship in their 44th season."
+ },
+ {
+   "Date": "May 31 – Jun 8",
+   "Sport": "Basketball",
+   "Event": "NBA Finals",
+   "Location": "California and Ohio, USA",
+   "Results": "Defending champion Golden State Warriors swept the Cleveland Cavaliers 4-0. It was the first time the same two teams met for the championship four years in a row."
+ },
+ {
+   "Date": "14 Jun -15 Jul",
+   "Sport": "Football (Soccer)",
+   "Event": "FIFA World Cup",
+   "Location": "Russia",
+   "Results": "France beat Croatia 4-2 in the final, their 2nd World Cup title"
+ },
+ {
+   "Date": "Jul 7-29",
+   "Sport": "Cycling",
+   "Event": "Tour de France",
+   "Location": "France",
+   "Results": "The general classification race was won by Welshman Geraint Thomas of Team Sky, his first win. His teammate and four-time Tour champion Chris Froome finished 3rd."
+ },
+ {
+   "Date": "Jun 16-17",
+   "Sport": "Auto Racing",
+   "Event": "86th 24 Hours of Le Mans",
+   "Location": "Circuit de la Sarthe, Le Mans, France",
+   "Results": "Won by the No. 8 Toyota Gazoo Racing driven by Fernando Alonso, Kazuki Nakajima, and Sébastien Buemi, from pole position."
+ },
+ {
+   "Date": "Jun 14–17",
+   "Sport": "Golf",
+   "Event": "US Open",
+   "Location": "Shinnecock Hills Golf Club, New York",
+   "Results": "Defending champion Brooks Koepka won his 2nd straight U.S. Open, one stroke ahead of Tommy Fleetwood."
+ },
+ {
+   "Date": "Jul 2-15",
+   "Sport": "Tennis",
+   "Event": "Wimbledon",
+   "Location": "London, England",
+   "Results": "Novak Djokovic won the Gentleman's Singles title and Angelique Kerber won the Ladies Singles title."
+ },
+ {
+   "Date": "Jul 19-22",
+   "Sport": "Golf",
+   "Event": "British Open",
+   "Location": "Carnoustie Golf Links,\tCarnoustie,\tAngus,\tScotland",
+   "Results": "Francesco Molinari won his first major championship and became the first Italian player to win a major."
+ },
+ {
+   "Date": "Jul 19-22",
+   "Sport": "Extreme Sports",
+   "Event": "Summer X Games",
+   "Location": "Minneapolis, Minnesota",
+   "Results": "The USA and Australia dominated the medal table, winning most of the gold medals."
+ },
+ {
+   "Date": "July 20-22",
+   "Sport": "Rugby 7s",
+   "Event": "Rugby World Cup Sevens",
+   "Location": "San Francisco\tU.S.A.",
+   "Results": "In a knock-out only format, New Zealand won both the men's and women's event, defeating England in the men's final and France in the women's final."
+ },
+ {
+   "Date": "Jul 21-Aug 5",
+   "Sport": "Hockey (Field)",
+   "Event": "World Cup — Women",
+   "Location": "London, England",
+   "Results": "Defending champions the Netherlands won for a record 8th time, defeating Ireland 6–0 in the final."
+ },
+ {
+   "Date": "Aug 2-12",
+   "Sport": "Multi-sports",
+   "Event": "European Sports Championships",
+   "Location": "Berlin & Glasgow",
+   "Results": "It was the first edition of the European Championships. Russia was awarded the European Championships Trophy for achieving the most gold medals across all seven sports."
+ },
+ {
+   "Date": "Aug 3-19",
+   "Sport": "Multi-Sports",
+   "Event": "Central American and Caribbean Games",
+   "Location": "Barranquilla, Colombia",
+   "Results": "37 nations took part, with Mexico leading the medal table, from Cuba and host nation Colombia."
+ },
+ {
+   "Date": "Aug 4-12",
+   "Sport": "Multi-sports",
+   "Event": "Gay Games",
+   "Location": "Paris, France",
+   "Results": "Athletes representing 91 countries participated in 36 sports."
+ },
+ {
+   "Date": "Aug 16-19",
+   "Sport": "Golf",
+   "Event": "US PGA",
+   "Location": "Bellerive Country Club, Town and Country, Missouri",
+   "Results": "Brooks Koepka won his third career major title, shooting a PGA Championship record of 264 and finishing two strokes ahead of Tiger Woods."
+ },
+ {
+   "Date": "Aug 18-Sep 2",
+   "Sport": "Multi-sports",
+   "Event": "Asian Games",
+   "Location": "Jakarta & Palembang, Indonesia",
+   "Results": "China led the medal tally for the tenth consecutive time"
+ },
+ {
+   "Date": "Aug 27 – Sep 11",
+   "Sport": "Tennis",
+   "Event": "US Open",
+   "Location": "New York, USA",
+   "Results": "Novak Djokovic won the men's singles title, defeating del Potro in the final. In women's singles, Naomi Osaka defeated Serena Williams, becoming Japan's first ever Grand Slam singles champion."
+ },
+ {
+   "Date": "Sep 9-16",
+   "Sport": "Rowing",
+   "Event": "World Rowing Championships",
+   "Location": "Plovdiv\tBulgaria",
+   "Results": "This was the first world rowing championships where the competition schedule was gender-equal. The medals were evenly spread, with 4 countries winning 3 golds each."
+ },
+ {
+   "Date": "Sep 9-30",
+   "Sport": "Volleyball",
+   "Event": "World men's Volleyball Championship",
+   "Location": "Italy and Bulgaria",
+   "Results": "Poland defended their world title, defeating the reigning olympic champions Brazil in straight sets"
+ },
+ {
+   "Date": "Sep 11-23",
+   "Sport": "Equestrian",
+   "Event": "FEI World Equestrian Games",
+   "Location": "Mill Spring, North Carolina, USA",
+   "Results": "68 nations took part"
+ },
+ {
+   "Date": "Sep 23-30",
+   "Sport": "Cycling",
+   "Event": "UCI Road World Championships",
+   "Location": "Innsbruck, Austria",
+   "Results": "The road race was won by Spain's Alejandro Valverde (men's) and The Netherlands' Anna van der Breggen (women's)"
+ },
+ {
+   "Date": "Sep 28-30",
+   "Sport": "Golf",
+   "Event": "Ryder Cup",
+   "Location": "Le Golf National (Saint-Quentin-en-Yvelines, France)",
+   "Results": "Europe regained the Ryder Cup, winning by 17½ points to 10½."
+ },
+ {
+   "Date": "Sep 29",
+   "Sport": "AFL",
+   "Event": "Grand Final",
+   "Location": "Melbourne, Australia",
+   "Results": "West Coast Eagles beat Collingwood by 5 points, the Eagles 4th fourth premiership."
+ },
+ {
+   "Date": "Sep 30",
+   "Sport": "Rugby League",
+   "Event": "NRL Grand Final",
+   "Location": "Sydney, Australia",
+   "Results": "Minor premiers Sydney Roosters defeated the defending premiers Melbourne Storm 21–6 to claim their 14th premiership title."
+ },
+ {
+   "Date": "Sep 30-Oct 21",
+   "Sport": "Volleyball",
+   "Event": "World Women's Volleyball Championship",
+   "Location": "Japan",
+   "Results": "Serbia won their first world title, defeating Italy in five sets at the final"
+ },
+ {
+   "Date": "Oct 20-27",
+   "Sport": "Multi-sports",
+   "Event": "Invictus Games",
+   "Location": "Sydney, Australia",
+   "Results": "This 4th Invictus Games included 11 medal sports. About 500 athletes from 18 countries participated. Although medals are awarded, no medal tally is recorded."
+ },
+ {
+   "Date": "Oct 23-28",
+   "Sport": "Baseball",
+   "Event": "World Series",
+   "Location": "Boston and Los Angeles",
+   "Results": "The Boston Red Sox beat the LA Dodgers 4-1 to win their ninth title in franchise history."
+ },
+ {
+   "Date": "Oct 25 - Nov 3",
+   "Sport": "Gymnastics",
+   "Event": "World Championships (Artistic)",
+   "Location": "Doha, Qatar",
+   "Results": "In the men's all-round, Defending champion Xiao Ruoteng of China lost the title on a tiebreaker to Russia's Artur Dalaloyan. In the women's all -round, US gymnast Simone Biles won an unprecedented 4th title."
+ },
+ {
+   "Date": "Nov 1-10",
+   "Sport": "Weightlifting",
+   "Event": "IWF World Championships",
+   "Location": "Ashgabat, Turkmenistan",
+   "Results": "China led the medal tally. After the IWF nullified all world records, this Championship saw a total of 72 senior world records set."
+ },
+ {
+   "Date": "Nov 6",
+   "Sport": "Horse Racing",
+   "Event": "Melbourne Cup",
+   "Location": "Victoria, Australia",
+   "Results": "Won by Cross Counter, ridden by Kerrin McEvoy and trained by Charlie Appleby."
+ },
+ {
+   "Date": "Nov 15 - 24",
+   "Sport": "Boxing",
+   "Event": "AIBA World Championships (women)",
+   "Location": "New Delhi, India",
+   "Results": "In the light flyweight category, Indian Mary Kom beat Ukrainian Hana Okhota to win gold, becoming the first woman boxer to win six gold medals in the AIBA World Boxing Championships. China won 4 gold medals, followed by Taiwan with 2."
+ },
+ {
+   "Date": "Nov 28-Dec 16",
+   "Sport": "Hockey (Field)",
+   "Event": "World Cup — Men",
+   "Location": "Bhubaneswar,\tIndia",
+   "Results": "Belgium won the tournament for the first time after defeating the Netherlands 3–2 in the final on a penalty shoot-out after a 0–0 draw."
+ },
+ {
+   "Date": "Dec 11-16",
+   "Sport": "Swimming",
+   "Event": "FINA World Swimming Championships (25m)",
+   "Location": "Hangzhou, China",
+   "Results": "The USA led the medal tally with 36 medals, beating Russia then China."
+ }
+]

@@ -1,0 +1,394 @@
+[
+ {
+   "Date": "Jan 11-29",
+   "Sport": "Handball",
+   "Event": "World Championships (men)",
+   "Location": "France",
+   "Results": "Won by host country France, with top scorer Kiril Lazarov of Macedonia"
+ },
+ {
+   "Date": "Jan 14-Feb 5",
+   "Sport": "Football (Soccer)",
+   "Event": "African Cup of Nations",
+   "Location": "Gabon",
+   "Results": "Won by Cameroon, their 5th title after defeating 7-time champions Egypt 2–1 in the final."
+ },
+ {
+   "Date": "Jan 16-29",
+   "Sport": "Tennis",
+   "Event": "Australia Open",
+   "Location": "Melbourne, Australia",
+   "Results": "Roger Federer won his 18 men's singles Grand Slam title by defeating Rafael Nadal in five sets. It was his first major since 2012 Wimbledon. Serena Williams while pregnant with her first child beat her sister Venus in the women's singles final."
+ },
+ {
+   "Date": "Jan 26-29",
+   "Sport": "Extreme Sports",
+   "Event": "Winter X Games 21",
+   "Location": "Aspen, Colorado, USA",
+   "Results": "Athletes competed in 6 skiing events, 7 snowboarding events, 4 snowmobiling events and one BikeCross event."
+ },
+ {
+   "Date": "Jan 29-Feb 8",
+   "Sport": "Multi-sports",
+   "Event": "Winter Universiade",
+   "Location": "Almaty, Kazakhstan",
+   "Results": "1,604 athletes from 56 nations competed, with Russia topping the medal tally"
+ },
+ {
+   "Date": "Feb 5",
+   "Sport": "Gridiron/Football",
+   "Event": "Super Bowl",
+   "Location": "Houston, Texas",
+   "Results": "The New England Patriots beat Atlanta Falcons in overtime, 34-28."
+ },
+ {
+   "Date": "Feb 6-19",
+   "Sport": "Skiing",
+   "Event": "World Alpine Ski Championships",
+   "Location": "Piz Nair, St. Moritz, Switzerland",
+   "Results": "athletes from 77 countries competed"
+ },
+ {
+   "Date": "Feb 23-27",
+   "Sport": "Multi-sports",
+   "Event": "Winter Military World Games",
+   "Location": "Sochi",
+   "Results": "athletes from 25 countries participated, with Russia topping the medal table"
+ },
+ {
+   "Date": "Mar 6-22",
+   "Sport": "Baseball",
+   "Event": "World Baseball Classic",
+   "Location": "Miami, San Diego and Los Angeles, (USA)",
+   "Results": "The USA defeated Puerto Rico to win the championship 8–0. Marcus Stroman was tournament MVP"
+ },
+ {
+   "Date": "Mar 14-24",
+   "Sport": "Multi-sports",
+   "Event": "Special Olympics World Winter Games",
+   "Location": "Graz and Schladming, Austria",
+   "Results": "there were 113 nations participating"
+ },
+ {
+   "Date": "Apr 3-9",
+   "Sport": "Golf",
+   "Event": "Masters",
+   "Location": "Augusta, USA",
+   "Results": "Sergio Garcia captured his first major in a sudden-death playoff with England's Justin Rose. Garcia played played 70 majors before this first win."
+ },
+ {
+   "Date": "Apr 8",
+   "Sport": "Horse Racing",
+   "Event": "Grand National",
+   "Location": "Aintree Racecourse in Liverpool",
+   "Results": "The 170th official running of the Grand National was won by One For Arthur, only the 2nd horse trained in Scotland to win the race."
+ },
+ {
+   "Date": "Apr 12-16",
+   "Sport": "Cycling",
+   "Event": "World Track Championships",
+   "Location": "Hong Kong",
+   "Results": "Australia led the medal tally with 3 gold and 11 medals in total"
+ },
+ {
+   "Date": "Apr 21-30",
+   "Sport": "Multi-sports",
+   "Event": "World Masters Games (Summer)",
+   "Location": "Auckland, New Zealand",
+   "Results": "28,578 athletes from 100 countries competed in 28 sports"
+ },
+ {
+   "Date": "May 5-21",
+   "Sport": "Ice Hockey",
+   "Event": "IIHF World Championship",
+   "Location": "Cologne, Germany / Paris, France",
+   "Results": "Sweden defeated Canada 2–1 in the final after a penalty shoot-out."
+ },
+ {
+   "Date": "May 6",
+   "Sport": "Horse Racing",
+   "Event": "Kentucky Derby",
+   "Location": "Louisville, Kentucky, US",
+   "Results": "Won by the post-time favorite, Always Dreaming"
+ },
+ {
+   "Date": "May 12-22",
+   "Sport": "Multi-sports",
+   "Event": "Islamic Solidarity Games",
+   "Location": "Baku, Azerbaijan",
+   "Results": "6000 athletes from 54 countries. Azerbaijan won the most gold medals (75) though Turkey had the most total medals (195)"
+ },
+ {
+   "Date": "May 27",
+   "Sport": "Football (Soccer)",
+   "Event": "FA Cup final",
+   "Location": "Wembley Stadium, London",
+   "Results": "The 136th final of the FA Cup between London rivals Arsenal and Chelsea was won by Arsenal 2–1."
+ },
+ {
+   "Date": "May 28-Jun 11",
+   "Sport": "Tennis",
+   "Event": "French Open",
+   "Location": "Paris, France",
+   "Results": "the singles events were won by Spain's Rafael Nadal and Jelena Ostapenko from Latvia"
+ },
+ {
+   "Date": "May 29-Jun 5",
+   "Sport": "Table Tennis",
+   "Event": "World Table Tennis Championships",
+   "Location": "Düsseldorf, Germany",
+   "Results": "Chinese athletes won all five events"
+ },
+ {
+   "Date": "May 29-Jun 11",
+   "Sport": "Ice Hockey",
+   "Event": "Stanley Cup finals",
+   "Location": "Pennsylvania and Nashville, USA",
+   "Results": "The Pittsburgh Penguins defeated the Nashville Predators 4-2."
+ },
+ {
+   "Date": "June 1-12",
+   "Sport": "Basketball",
+   "Event": "NBA Finals",
+   "Location": "California and Ohio, USA",
+   "Results": "The first time in NBA history the same two teams had met for a third consecutive year. The Golden State Warriors defeated NBA champion Cleveland Cavaliers 4-1."
+ },
+ {
+   "Date": "Jun 3",
+   "Sport": "Football (Soccer)",
+   "Event": "UEFA Champions League final",
+   "Location": "Millennium Stadium, Cardiff",
+   "Results": "Real Madrid beat Juventus 4–1. Real Madrid became the first ever team to successfully defend their title in the Champions League era, winning their 12th title."
+ },
+ {
+   "Date": "Jun 13-16",
+   "Sport": "Extreme Sports",
+   "Event": "Summer X Games",
+   "Location": "Minneapolis, Minnesota",
+   "Results": "events in BMX, Moto X and Skateboard, medals count dominated by the USA."
+ },
+ {
+   "Date": "Jun 15–18",
+   "Sport": "Golf",
+   "Event": "US Open",
+   "Location": "Erin Hills, Wisconsin",
+   "Results": "won by USA player Brooks Koepka, his first major."
+ },
+ {
+   "Date": "Jun 17-18",
+   "Sport": "Auto Racing",
+   "Event": "85th 24 Hours of Le Mans",
+   "Location": "Circuit de la Sarthe, Le Mans, France",
+   "Results": "the 85th running of the 24 hour race was won by the No. 2 Porsche driven by Timo Bernhard, Brendon Hartley and Earl Bamber"
+ },
+ {
+   "Date": "Jun 17-27",
+   "Sport": "Sailing",
+   "Event": "America's Cup",
+   "Location": "Bermuda",
+   "Results": "The challenger, Emirates Team New Zealand beat Oracle Team USA 7 races to 1."
+ },
+ {
+   "Date": "Jun 17-Jul 2",
+   "Sport": "Football (Soccer)",
+   "Event": "Confederations Cup",
+   "Location": "Russia",
+   "Results": "Germany won their first title with a 1–0 win over Chile in the final"
+ },
+ {
+   "Date": "Jun 26 - Jul 23",
+   "Sport": "Cricket",
+   "Event": "ODI World Cup for Women",
+   "Location": "England",
+   "Results": "England won the final against India"
+ },
+ {
+   "Date": "Jul 1–23",
+   "Sport": "Cycling",
+   "Event": "2017 Tour de France",
+   "Location": "Germany / France",
+   "Results": "won by Chris Froome of Team Sky, his 4th victory."
+ },
+ {
+   "Date": "Jul 3-16",
+   "Sport": "Tennis",
+   "Event": "Wimbledon",
+   "Location": "London, England",
+   "Results": "Roger Federer won the men's singles for a record 8th time. Spain's Garbiñe Muguruza won the ladies' singles."
+ },
+ {
+   "Date": "Jul 4-18",
+   "Sport": "Multi-sports",
+   "Event": "Maccabiah Games",
+   "Location": "Israel",
+   "Results": "This event which is open to Jewish athletes from around the world, was not surprisingly dominated by athletes from Israel."
+ },
+ {
+   "Date": "Jul 14-30",
+   "Sport": "Swimming",
+   "Event": "World Aquatics Champs",
+   "Location": "Budapest, Hungary",
+   "Results": "There was a total of 75 medal events held across 6 disciplines, with the USA leading the medal count ahead of China and Russia."
+ },
+ {
+   "Date": "Jul 18-30",
+   "Sport": "Multi-sports",
+   "Event": "Deaflympics",
+   "Location": "Samsun, Turkey.",
+   "Results": "3,148 athletes from 97 countries competed in 21 sports."
+ },
+ {
+   "Date": "Jul 20-23",
+   "Sport": "Golf",
+   "Event": "British Open",
+   "Location": "Royal Birkdale Golf Club,\tSouthport, Merseyside,\tEngland",
+   "Results": "Won by Jordan Spieth, after leading from start to finish."
+ },
+ {
+   "Date": "Jul 20-30",
+   "Sport": "Multi-sports",
+   "Event": "The World Games",
+   "Location": "Wroclaw, Poland",
+   "Results": "3,214 athletes from 102 countries competed in a total of 201 events in 27 sports. Russia led the medal tally."
+ },
+ {
+   "Date": "Jul 21–30",
+   "Sport": "Multi-sports",
+   "Event": "Francophone Games",
+   "Location": "Abidjan, Côte d'Ivoire",
+   "Results": "Athletes from 35 countries competed"
+ },
+ {
+   "Date": "Aug 4-13",
+   "Sport": "Athletics",
+   "Event": "IAAF World Championships",
+   "Location": "Olympic Stadium, London UK",
+   "Results": "The USA led the medal tally with 10 golds, double second placed Kenya."
+ },
+ {
+   "Date": "Aug 5-18",
+   "Sport": "Multi-sports",
+   "Event": "World Police and Fire Games",
+   "Location": "Los Angeles, USA",
+   "Results": "10,000 athletes from 70+ countries across the world competing in 60+ sports"
+ },
+ {
+   "Date": "Aug 7-13",
+   "Sport": "Golf",
+   "Event": "US PGA",
+   "Location": "Quail Hollow Club, Charlotte,\tNorth Carolina",
+   "Results": "Justin Thomas won his first career major title"
+ },
+ {
+   "Date": "Aug 9-26",
+   "Sport": "Rugby",
+   "Event": "Women's World Cup",
+   "Location": "Ireland",
+   "Results": "New Zealand beat England 41-32 in the final"
+ },
+ {
+   "Date": "Aug 19-31",
+   "Sport": "Multi-sports",
+   "Event": "South-East Asian Games",
+   "Location": "Kuala Lumpur, Malaysia",
+   "Results": "The final medal tally was led by host Malaysia, followed by Thailand and Vietnam"
+ },
+ {
+   "Date": "Aug 19-Sep 30",
+   "Sport": "Multi-sports",
+   "Event": "Summer Universiade",
+   "Location": "Taipei, Taiwan",
+   "Results": "7,639 athletes from 145 countries participated in 21 sports. Japan led the medal tally."
+ },
+ {
+   "Date": "Aug 21–27",
+   "Sport": "Badminton",
+   "Event": "BWF World Championships",
+   "Location": "Emirates Arena in Glasgow, Scotland",
+   "Results": "Chinese athletes placed in all 5 events"
+ },
+ {
+   "Date": "Aug 25 - Sep 3",
+   "Sport": "Boxing",
+   "Event": "AIBA World Championships (men)",
+   "Location": "Hamburg, Germany",
+   "Results": "Cuban athletes won 5 gold medals"
+ },
+ {
+   "Date": "Aug 28-Sep 10",
+   "Sport": "Tennis",
+   "Event": "US Open",
+   "Location": "New York, USA",
+   "Results": "Rafael Nadal defeated Kevin Anderson in the men's singles, Sloane Stephens defeated Madison Keys in the women's singles"
+ },
+ {
+   "Date": "Sep 17-24",
+   "Sport": "Cycling",
+   "Event": "UCI Road World Championships",
+   "Location": "Bergen, Norway",
+   "Results": "Chantal Blaak of the Netherlands won the women's road race and Peter Sagan of Slovakia won the men's road race, becoming the first man to win 3 successive world road race championships."
+ },
+ {
+   "Date": "Sep 23-30",
+   "Sport": "Multi-sports",
+   "Event": "Invictus Games",
+   "Location": "Toronto, Canada",
+   "Results": "Held for the 2nd time with athletes from 17 countries, 2 debuting."
+ },
+ {
+   "Date": "Sep 23-Oct 1",
+   "Sport": "Rowing",
+   "Event": "World Rowing Championships",
+   "Location": "Sarasota\tU.S.A.",
+   "Results": "Italy led the medal tally with 3 gold, 9 medals in total"
+ },
+ {
+   "Date": "Sep 27-Oct 9",
+   "Sport": "Gymnastics",
+   "Event": "World Championships (Artistic)",
+   "Location": "Montreal\tCanada",
+   "Results": "It was the 1st time since 2003 that the Championships had been held in North America"
+ },
+ {
+   "Date": "Sep 28-Oct 1",
+   "Sport": "Golf",
+   "Event": "Presidents Cup",
+   "Location": "Liberty National Golf Club, Jersey City, New Jersey",
+   "Results": "won by the defending champions the USA"
+ },
+ {
+   "Date": "Oct 24 - Nov 1",
+   "Sport": "Baseball",
+   "Event": "World Series",
+   "Location": "Houston and Los Angeles, USA",
+   "Results": "Houston Astros defeated the LA Dodgers 4-3, for their first ever win."
+ },
+ {
+   "Date": "Oct 26 - Dec 2",
+   "Sport": "Rugby League",
+   "Event": "World Cup",
+   "Location": "Australia, New Zealand and Papua New Guinea",
+   "Results": "Australia won their 11th title, beating England 6–0"
+ },
+ {
+   "Date": "Nov 7",
+   "Sport": "Horse Racing",
+   "Event": "Melbourne Cup",
+   "Location": "Victoria, Australia",
+   "Results": "won by Rekindling"
+ },
+ {
+   "Date": "Nov 28-Dec 5",
+   "Sport": "Weightlifting",
+   "Event": "IWF World Championships",
+   "Location": "Anaheim, United States",
+   "Results": "328 athletes participated\tfrom 68 countries"
+ },
+ {
+   "Date": "Dec 1-17",
+   "Sport": "Handball",
+   "Event": "World Championships (women)",
+   "Location": "Germany",
+   "Results": "France won their 2nd title (first in 2003), defeating reigning champions Norway 23–21 in the final."
+ }
+]
