@@ -28,6 +28,8 @@ A 150 word description of the project idea and goals. What’s the motivation be
 6. Explanatory part: if we find some bias in part 2, how can we explain it? Do we do some additional analysis on a subset of the data (such as NYTimes articles?) 
 
 ## Additional Datasets & Sources
+**Antoine**: Sources used for building the external time line? 
+**Simon**: I can mention that I use the new york times data set. 
 List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
 
 ## Proposed timeline
