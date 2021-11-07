@@ -50,3 +50,5 @@ A list of internal milestones up until project Milestone 3.
 
 ## Questions for the TAs
 
+## Additional Note
+https://www.researchgate.net/publication/335908711_What_matters_context_or_sentiment_Analysing_the_influence_of_news_in_US_elections_using_Natural_Language_Processing
