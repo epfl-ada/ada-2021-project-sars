@@ -2,46 +2,51 @@
 EPFL Fall Semester 2021-2022
 Raphael Bonatti, Simon Spangenberg, Antoine Crettenand, Saad Charkaoui
 
-**For Sunday**: 
-* Simon: Build training data set NYTimes
-* Saad: Build the model for topic modelling
-* Antoine: Build the external timelines
-* Raphael: Try to build different functions for popularity measurements. 
+## For Wednesday:
+* Raphael: ...
+* Simon: Works on parsing the data from the quotebank database for each newspaper of interest. 
+* Antoine: Works on the text sentiment analysis model. 
+* Saad: Works on the web scraping and voting intention aggregation. 
 
 ## Introduction & Context
 
 A 150 word description of the project idea and goals. What’s the motivation behind your project? What story would you like to tell, and why?
 
+Does media coverage faithfully represent vote intentions? More specifically, we analyse three main newspapers and their coverage of the 2016 and 2020 US elections. We aim at answering the question whether there exists a correlation between voter intention and the newspaper coverage. That is, can we assert that the higher coverage of newspaper company regarding a presidential candidate (2016: Clinton/Trump, 2020:Biden/Trump), the higher vote intentions will lean towards that covered candidate? 
+
 ## Research Questions
-* **First Part**: Are the topics covered by the media in the years 2015-2020 an accurate representation of the key events that occured within these years (we focus on four topics: Politics, Sports and Technology)?
-* **Second Part**: What are the proportions of key events covered in the newspaper related to each topic? Do media tend to cover more one topic over another? 
-* **Third Part**: If any bias is found in part 2, what could cause such bias? Can we infer some possible conclusion by looking at external data sets - such as for instance, focusing on the New York Times Newspaper, can we draw a correlation between monthly income and number of topics covered in a month?)
+* **Question 1**: How can we quantify media coverage?
+  * Focus on the number of occurences of a candidates' name in the quotes and url of the quotebank dataset for the years 2016 and 2020. 
+  * Perform a text sentiment analysis on the quotations where the candidate's name occurs in the quotations or the url for the years 2016 and 2020 (negative vs positive feedback). 
+* **Question 2**: For both of the media coverage methods mentioned above, can we find correlation between the retrieved coverage and the vote intentions for 2016 and 2020 for the following newspapers: BBC, FoxNews and New York Times? 
+  * To do this, we will need to quantify the vote intentions. This will be done by scraping/parsing the following website: https://www.realclearpolitics.com/ (See Additional Datasets section) for 2020 and 2016 elections. Once the data is parsed, we aggregate it to build voting monthly based voting intentions for each elections. 
+* **Question 3**: Comparing the two elections - can be determine similar behavior in media coverage from 2016 and 2020 (considering the different outcomes in both elections). Can we determine a difference in the Trump media coverage in 2016 and 2020? 
+* **Question 4**: If we find correlation in our study, can we perform statistical tests to see if causality between media coverage and vote intention can be determined? Of course this observational study would require us to perform some sensitivity analysis on the media coverage methods described above to determine whether causality exists (for instances, by finding ways of matching different examples of media coverage). 
 
 ## Additional Datasets
+* Polls for the 2020 elections from January 2020 to November 2020: https://www.realclearpolitics.com/epolls/2020/president/us/general_election_trump_vs_biden-6247.html#polls
+* Polls for the 2016 elections from January 2016 to November 2016: https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html
 
 ## Methods
-1. **Topic Modeling**: Our first work relates to building an appropriate topic modeling algorithm that will be able to classify each quote in the quotebank dataset into one of the four aforementioned topics. The main challenges of this task are the following: first, finding/building a training data set that will appropriately train our topic modeling classifier. To do so we need to find data that includes distinctive quotes from each of the four topics we are looking for. The second challenge relates to building the model itself. To solve the first challenge, we have parsed all the quotations coming from the NYTimes as they include distinctive topic descriptions in their provenance urls (See notebook NYTimes_Parsing.ipynb). Once the parsing is done, we build a training dataset of 20,000 quotations including only quotes coming from the topics sports, politics, technology and media. The second task involved building a model **Saad expand here**
-2. In parallel to topic modeling, we also retrieved information related to key historical events in each of the four targeted topics from the following external sources: **Antoine add sources here**. In essence, we are building a timeline of known key events from data retrieved externally. This timeline will allow easy comparison with the information retrieved from topic modeling. 
-3. Building the popularity timeline to compare whether the topics covered by the media in the years 2015-2020 are an accurate representation of the key events that occured within these years **Raphael**. (Do we see spikes at key events? How many occurences in total do we have in each category? Do spikes match expected key events?)
-4. Dig deeper into each observed spike to determine that actual event that may have occured. We may return a list of possible words quandidates based on their occurences in each quote and determine if the event itself is present in this list with high overall occurence). Are some major events barely covered in the media? 
-5. Analysis on part 2: how can we related each topic to another? Is one topic way more covered than another? 
-6. Explanatory part: if we find some bias in part 2, how can we explain it? Do we do some additional analysis on a subset of the data (such as NYTimes articles?) 
-
-## Additional Datasets & Sources
-**Antoine**: Sources used for building the external time line? 
-**Simon**: I can mention that I use the new york times data set. 
-List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
+* **Part 1**: Quantifying Media Coverage
+  * Method 1: We parse the Quotebank dataset based on the three newspapers we focus our study on. Once this parsing is done, we parse each quotation based on the occurence of the following keywords in the quotation or in the urls: Clinton/Trump for 2016, Biden/Trump for 2020. We can then aggregate the occurences on a monthly basis. 
+  * Method 2: We perform text sentiment analysis on the quotations retrieved in the first method (on a presidential candidate basis) for each newspaper. **Antoine**
+* **Part 2**: Parsing the voting intention data & finding correlation
+  *  We would scrape the website given in the Additional Analysis section. This website contains information relating to voting intentions taken from different surveys accross the United States from January 2016/2020 to November 2016/2020. Once the data is scraped, we parse it and aggregate it on a monthly basis and use it as a metric to determine overall national voting intentions in the United States in the months preceding the elections. 
+  * We would compute the Pearson correlation coefficient between the media coverage for each method proposed and the voting intention computed in the previous step. 
+*  **Part 3**: Comparing the two elections
+  *  We can visually compare the two elections by analysing the distributions of media coverage occurences on a monthly basis. A similar study can be performed for the text sentiment analysis done. We can further expand our comparison by performing null hypothesis tests and regression analysis. 
+*  **Part 4**: Causality tests
+  * We are interested in determining whether either of the media coverage methods proposed (occurence & text sentiment analysis) can be used to determine causality between certains topics of media coverage and the voting intentions. To do so, we first need to develop a topic modeling analysis. Once we have divided our quotations of interest into different topics, we can use these topics to perform matching our data.... **TO FINISH BY FRIDAY**
 
 ## Proposed timeline
 
 ## Organization within the team
 A list of internal milestones up until project Milestone 3.
-* Raphael: 
-* Simon: 
-* Antoine:
-* Saad:
+* Raphael: Correlation study & visualization. Causality Testing
+* Simon: Works on parsing the data from the quotebank database for each newspaper of interest & building the occurences timeline. Causality Testing
+* Antoine: Works on the text sentiment analysis model. Causality Testing
+* Saad: Works on the web scraping and voting intention aggregation. Causility Testing
 
 ## Questions for the TAs
-
-
 
