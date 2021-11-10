@@ -50,6 +50,16 @@ A list of internal milestones up until project Milestone 3.
 * Saad: Works on the web scraping and voting intention aggregation. Causility Testing
 
 ## Questions for the TAs
+Is it ok to use the 2012 Quotebank dataset?
+
+## Additional notes
+We do not have enough data for 2020, so we decided to focus on 2012 instead. Also BBC dataset may not be enough...
+There are three notebooks: sentiment analysis, occurence analysis, scrapping polls. 
+* Simon describe work done 
+* Antoine describe notebook and work done
+* Saad describe notebook and work done. 
+
+What do we see so far? In the occurence analysis
 
 ## Additional Note
 https://www.researchgate.net/publication/335908711_What_matters_context_or_sentiment_Analysing_the_influence_of_news_in_US_elections_using_Natural_Language_Processing
