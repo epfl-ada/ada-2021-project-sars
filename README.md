@@ -26,6 +26,7 @@ Does media coverage faithfully represent vote intentions? More specifically, we 
 ## Additional Datasets
 * Polls for the 2020 elections from January 2020 to November 2020: https://www.realclearpolitics.com/epolls/2020/president/us/general_election_trump_vs_biden-6247.html#polls
 * Polls for the 2016 elections from January 2016 to November 2016: https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html
+* Polls for the 2012 elections from January 2012 to November 2012: https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!
 
 ## Methods
 * **Part 1**: Quantifying Media Coverage
