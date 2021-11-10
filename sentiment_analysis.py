@@ -26,7 +26,6 @@ def sa_compute_polarity_and_subjectivity_textblob(filepath: str, chunk_size: int
     return ret_df
 
 def expand_quotations_with_polarity_subjectivity(df: pd.DataFrame):
-    df['quotation'] = df['quotation'].map(lambda x: x.replace('[ ', '').replace(' ] ', ''))
     df['quotation_polarity'] = df['quotation'].map(lambda x: TextBlob(x).sentiment.polarity)
     df['quotation_subjectivity'] = df['quotation'].map(lambda x: TextBlob(x).sentiment.subjectivity)
     return df
