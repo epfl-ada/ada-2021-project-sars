@@ -2,15 +2,7 @@
 EPFL Fall Semester 2021-2022
 Raphael Bonatti, Simon Spangenberg, Antoine Crettenand, Saad Charkaoui
 
-## For Wednesday:
-* Raphael: ...
-* Simon: Works on parsing the data from the quotebank database for each newspaper of interest. 
-* Antoine: Works on the text sentiment analysis model. 
-* Saad: Works on the web scraping and voting intention aggregation. 
-
 ## Introduction & Context
-
-A 150 word description of the project idea and goals. What’s the motivation behind your project? What story would you like to tell, and why?
 
 Does media coverage faithfully represent vote intentions? More specifically, we analyse three main newspapers and their coverage of the 2016 and 2020 US elections. We aim at answering the question whether there exists a correlation between voter intention and the newspaper coverage. That is, can we assert that the higher coverage of newspaper company regarding a presidential candidate (2016: Clinton/Trump, 2020:Biden/Trump), the higher vote intentions will lean towards that covered candidate? 
 
@@ -48,15 +40,14 @@ What do we see so far? In the occurence analysis
 
 
 ## Additional Datasets
-* Polls for the 2020 elections from January 2020 to November 2020: https://www.realclearpolitics.com/epolls/2020/president/us/general_election_trump_vs_biden-6247.html#polls
-* Polls for the 2016 elections from January 2016 to November 2016: https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html
-* Polls for the 2012 elections from January 2012 to November 2012: https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!
+* Polls for the 2020 elections January-November: https://www.realclearpolitics.com/epolls/2020/president/us/general_election_trump_vs_biden-6247.html#polls
+* Polls for the 2016 elections January-November: https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html
+* Polls for the 2012 elections January-November: https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!
 
 
 ## Proposed timeline
 
 ## Organization within the team
-A list of internal milestones up until project Milestone 3.
 * Raphael: Correlation study & visualization. Causality Testing
 * Simon: Works on parsing the data from the quotebank database for each newspaper of interest & building the occurences timeline. Causality Testing
 * Antoine: Works on the text sentiment anaxtlysis model. Causality Testing
