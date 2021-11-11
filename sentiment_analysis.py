@@ -49,29 +49,48 @@ stopword = nltk.corpus.stopwords.words('english')
 ps = nltk.PorterStemmer()
 wn = nltk.WordNetLemmatizer()
 
-'''
-Preprocess the data for sentiment analysis.
-Helper functions below
-'''
-def preprocess_data_for_sentiment_analysis(df):
-    quotes_punc = df['quotation'].apply(lambda x: remove_punct(x,punctuation_string))
+def preprocess_data_for_sentiment_analysis(df: pd.DataFrame, tags=[]):
+    """Preprocess dataframe for sentiment analysis by applying successive functions:
+    Quotes -> Remove Punctuation -> Tokenization -> Stemmed -> Lemmatization
+
+    Args:
+        df (pd.DataFrame): Dataframe which contains quotes in 'quotation' column.
+        tags (list, optional): Specify the stages of preprocessing which will be appended to the original dataframe. Defaults to [].
+
+    Returns:
+        pd.DataFrame: Original df with the specified added columns.
+    """
+    kvmap = {}
+    quotes_punc = df['quotation'].apply(lambda x: remove_punct(x, punctuation_string))
     quotes_tokenized = quotes_punc.apply(lambda x: tokenization(x.lower()))
     quotes_tokenized = quotes_tokenized.apply(lambda x: replace_words(x,replaced_words))
     quotes_nonstop = quotes_tokenized.apply(lambda x: remove_stopwords(x,stopword))
+    quotes_stemmed = quotes_nonstop.apply(lambda x: stemming(x))
     quotes_lemmatized = quotes_nonstop.apply(lambda x: lemmatizer(x))
-    df['quotation'] = quotes_lemmatized.apply(lambda x: ' '.join(str(e) for e in x))
+    quotes_conc_lemmatized = quotes_lemmatized.apply(lambda x: ' '.join(str(e) for e in x))
+
+    kvmap.update({'quotation_tokenized': quotes_tokenized})
+    kvmap.update({'quotation_stemmed' : quotes_stemmed})
+    kvmap.update({'quotation_lemmatized' : quotes_lemmatized})
+    kvmap.update({'quotation_conc_lemmatized' : quotes_conc_lemmatized})
+
+    for tag in kvmap:
+        if tag in tags:
+            df[tag] = kvmap[tag]
+
+    print(f'[process_sa] Prepared for sentiment analysis with tags: {tags}')
     return df
 
-def remove_punct(text,punctuation_string):
+def remove_punct(text: str, punctuation_string: str): 
     text  = "".join([char for char in text if char not in punctuation_string])
     text = re.sub('[0-9]+', '', text)
     return text    
 
-def tokenization(text):
+def tokenization(text: str):
     text = re.split('\W+', text)
     return text    
 
-def replace_words(text,replaced_words):
+def replace_words(text: str, replaced_words: list):
     ind = -1 
     for word in text:
         ind +=1
@@ -110,28 +129,17 @@ def lemmatizer(text):
     text = [wn.lemmatize(word) for word in text]
     return text    
 
-'''
-Sentiment Analysis implementations.
-Helper functions below.
-'''
-def sa_compute_polarity_and_subjectivity_textblob(filepath: str, chunk_size: int, max_chunks: int, rawdata=True):
-    ret_df = pd.DataFrame()
-    with pd.read_csv(filepath, compression='zip', chunksize=chunk_size) as df_reader:
-        it = 0
-        for chunk in df_reader:
-            if it >= max_chunks:
-                break
-            df = chunk
-            if rawdata:
-                df['quotation'] = df['quotation'].map(lambda x: x.replace('[ ', '').replace(' ] ', ''))
-            df['quotation_polarity'] = df['quotation'].map(lambda x: TextBlob(x).sentiment.polarity)
-            df['quotation_subjectivity'] = df['quotation'].map(lambda x: TextBlob(x).sentiment.subjectivity)
-#            temp_df = df[['quotation', 'quotation_polarity', 'quotation_subjectivity']]
-            ret_df = pd.concat([ret_df, df], ignore_index=True)
-            it += 1
-    return ret_df
 
-def expand_quotations_with_polarity_subjectivity(df: pd.DataFrame):
-    df['quotation_polarity'] = df['quotation'].map(lambda x: TextBlob(x).sentiment.polarity)
-    df['quotation_subjectivity'] = df['quotation'].map(lambda x: TextBlob(x).sentiment.subjectivity)
+def expand_quotations_with_polarity_subjectivity(df: pd.DataFrame, column: str='quotation'):
+    """Sentiment Analysis implementation using TextBlob
+
+    Args:
+        df (pd.DataFrame): DataFrame containing the quotations.
+        column (str, optional): Specify the column name where the quotations are stored. Defaults to 'quotation'.
+
+    Returns:
+        pd.DataFrame: Original dataframe with appended polarity and subjectivity.
+    """    
+    df['quotation_polarity'] = df[f'{column}'].map(lambda x: TextBlob(x).sentiment.polarity)
+    df['quotation_subjectivity'] = df[f'{column}'].map(lambda x: TextBlob(x).sentiment.subjectivity)
     return df
