@@ -10,7 +10,7 @@ Does media coverage faithfully represent vote intentions? More specifically, we 
 * **Question 1**: How can we quantify media coverage? 
 * **Question 2**: How can we quantify/parse voting intentions? 
 * **Question 3** Can we find a correlation between voting intention and media coverage? Does the sentiment of the quotations have a stronger impact on the voting intention than simply the occurences of mentions (sentiment vs quantity)? 
-* **Question 4**: Can be determine similar behaviors in media coverage from 2012, 2016 and 2020 (considering the different outcomes in the elections). Can we determine a difference in the republican media coverage (based on occurences and sentiment) in 2012, 2016 and 2020 (since the arrival and departure of Trump)? 
+* **Question 4**: Can We determine similar behaviors in media coverage from 2012, 2016 and 2020 (considering the different outcomes in the elections). Can we determine a difference in the republican media coverage (based on occurences and sentiment) in 2012, 2016 and 2020 (since the arrival and departure of Trump)? 
 * **Question 5**: If we find correlation in our study, can we perform statistical tests to see if causality between media coverage and vote intention can be determined? Can we perform Topic Modeling on the quotations to determine whether in the labeled text sentiment analysis data, certain topics are reccurent and may have had an impact in the voting intentions?
 
 ## Methods
