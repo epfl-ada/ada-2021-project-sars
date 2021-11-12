@@ -2,7 +2,7 @@
 EPFL Fall Semester 2021-2022
 Raphael Bonatti, Simon Spangenberg, Antoine Crettenand, Saad Charkaoui
 
-## Introduction & Context
+## Abstract
 
 It is often argued that former US president Donald Trump's upset victory in the 2016 elections significantly relates to his ability to monopolize the attention of mass media outlets [[1]](https://www.politico.com/magazine/story/2016/11/2016-election-trump-media-takeover-coverage-214419/). Although former president's polemical nature granted him a front row seat at almost every national newspaper in the months preceding the election [[2]](https://www.bbc.co.uk/news/36429660.amp), how can we precisely assess the influence that such incessant media coverage has had on the outcome of the elections? This it the question that we aim to answer in our study. We aim at using the quotebank corpus to analyse possible correlations and causations between the media coverage of three different major outlets with notoriously distinct political inclinations (CNN, BBC, NYTimes) and voting intentions in the months preceding each elections.
 
@@ -46,7 +46,7 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 * :chart_with_upwards_trend:[Polls 2016 elections January-November](https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html)
 * :chart_with_upwards_trend:[Polls 2012 elections January-November](https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!)
 
-## Porject overview:
+## Porject overview
 ![Optional Text](Visualizations/project_diagram.jpg)
 
 ## Proposed Timeline & Team Organization
