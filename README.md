@@ -16,7 +16,7 @@ It is often argued that former US president Donald Trump's upset victory in the 
 
 ## Methods
 * **Part 1**: Quantifying Media Coverage ✔️ 
-  * Method 1: We parse the Quotebank dataset based on the three newspapers we focus our study on. Once this parsing is done, we parse each quotation based on the occurence of the following keywords in the quotation, urls or speaker columns of the dataset. See [Notebook](media_coverage_occurences.ipynb):green_book: for detailed information.
+  * Method 1: We parse the Quotebank dataset based on the three newspapers we focus our study on(BBC,NYtimes and FoxNews). Once this parsing is done, we parse each quotation based on the occurence of the following keywords in the quotation, urls or speaker columns of the dataset. See [Notebook](media_coverage_occurences.ipynb):green_book: for detailed information.
   * Method 2: We perform text sentiment analysis on the quotations retrieved in the first method (on a presidential candidate basis) for each newspaper. See [Notebook](sentiment_analysis.ipynb):blue_book: for detailed information.
 * **Part 2**: Quantifying/Parsing voting intention data ✔️
   *  We scrape the website given in the Additional Analysis section. This website contains information relating to voting intentions taken from different surveys accross the United States from January 2012/2016/2020 to November 2012/2016/2020. See [Notebook](votes_intention.ipynb):orange_book: for detailed information.
