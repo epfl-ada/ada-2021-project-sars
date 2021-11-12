@@ -36,7 +36,7 @@ Of course this observational study would require us to perform some sensitivity 
 We have noted in our current analysis that the quotations for 2020 stops in April. This means that we will most likely have to eliminate 2020 from our study. Concerning 2016, we've notice that some of the months contain very little quotations (most likely due to the unbalanced nature of the quotebank dataset). We will decide in the upcoming days how we want to process this lack of data (i.e if we can find a suitable way to augment the data). 
 There are three notebooks: sentiment analysis, occurence analysis, scrapping polls. 
 * :green_book:[media_coverage_occurences.ipynb](media_coverage_occurences.ipynb): includes parsing the data from quotebank dataset and quantitative study of candidate name occurence per newspaper. See notebook for detailed information.
-* :blue_book:[sentiment_analysis.ipynb](sentiment_analysis.ipynb):
+* :blue_book:[sentiment_analysis.ipynb](sentiment_analysis.ipynb): includes exploratory sentiment analysis with baseline implementation on the parsed [dataset](Data/). See notebook for detailed information.
 * :orange_book:[votes_intention.ipyng](votes_intention.ipynb):includes the scraping of the external data(polls of 2012/20216/2020), data cleaning and preprocessing, aggregating the polls by month to plot the timeseries per each candidate. See notebook for detailed information.
 
 ## Additional Datasets
