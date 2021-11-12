@@ -4,6 +4,8 @@ Raphael Bonatti, Simon Spangenberg, Antoine Crettenand, Saad Charkaoui
 
 ## Introduction & Context
 
+
+
 Does media coverage faithfully represent vote intentions? More specifically, we analyse three main newspapers and their coverage of the 2016 and 2020 US elections. We aim at answering the question whether there exists a correlation between voter intention and the newspaper coverage. That is, can we assert that the higher coverage of newspaper company regarding a presidential candidate (2016: Clinton/Trump, 2020:Biden/Trump), the higher vote intentions will lean towards that covered candidate? 
 
 ## Research Questions
@@ -45,10 +47,7 @@ What do we see so far? In the occurence analysis
 * Polls for the 2016 elections January-November: https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html
 * Polls for the 2012 elections January-November: https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!
 
-
-## Proposed timeline
-
-## Organization within the team
+## Proposed Timeline & Team Organization
 * Raphael: Correlation study & visualization. Causality Testing
 * Simon: Works on parsing the data from the quotebank database for each newspaper of interest & building the occurences timeline. Causality Testing
 * Antoine: Works on the text sentiment anaxtlysis model. Causality Testing
