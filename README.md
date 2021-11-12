@@ -44,7 +44,7 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 * :chart_with_upwards_trend:[Polls 2016 elections January-November](https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html)
 * :chart_with_upwards_trend:[Polls 2012 elections January-November](https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!)
 
-## Porject overview
+## Project overview
 ![Optional Text](Visualizations/project_diagram.jpg)
 
 ## Proposed Timeline & Team Organization
