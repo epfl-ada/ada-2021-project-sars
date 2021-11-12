@@ -52,7 +52,7 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 * Saad: Works on the web scraping and voting intention aggregation. Causility Testing
 
 ## Questions for the TAs
-Is it ok to use the 2012 Quotebank dataset?
+Do you have any advice on how we may handle the 2016 missing data? 
 
 
 ## Additional Note
