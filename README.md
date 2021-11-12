@@ -36,7 +36,7 @@ Of course this observational study would require us to perform some sensitivity 
 ## Current Analysis Performed
 We do not have enough data for 2020, so we decided to focus on 2012 instead. Also BBC dataset may not be enough...
 There are three notebooks: sentiment analysis, occurence analysis, scrapping polls. 
-* :orange_book:[media_coverage_occurences.ipynb](media_coverage_occurences.ipynb)
+* :green_book:[media_coverage_occurences.ipynb](media_coverage_occurences.ipynb): includes parsing the data from quotebank dataset and quantitative study of candidate name occurence per newspaper. See notebook for detailed information.
 * :blue_book:[sentiment_analysis.ipynb](sentiment_analysis.ipynb):
 * :orange_book:[votes_intention.ipyng](votes_intention.ipynb):
 
