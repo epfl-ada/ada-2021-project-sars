@@ -17,7 +17,7 @@ Does media coverage faithfully represent vote intentions? More specifically, we 
 
 ## Methods
 * **Part 1**: Quantifying Media Coverage ✔️ 
-  * Method 1: We parse the Quotebank dataset based on the three newspapers we focus our study on. Once this parsing is done, we parse each quotation based on the occurence of the following keywords in the quotation, urls or speaker columns of the dataset: Obama/Romney for 2012, Clinton/Trump for 2016, Biden/Trump for 2020. We can then aggregate the occurences on a monthly basis from January to November (election day). 
+  * Method 1: We parse the Quotebank dataset based on the three newspapers we focus our study on. Once this parsing is done, we parse each quotation based on the occurence of the following keywords in the quotation, urls or speaker columns of the dataset See [Notebook](media_coverage_occurences.ipynb)
   * Method 2: We perform text sentiment analysis on the quotations retrieved in the first method (on a presidential candidate basis) for each newspaper. **Antoine Add Some More Here**
 * **Part 2**: Quantifying/Parsing voting intention data ✔️
   *  We scrape the website given in the Additional Analysis section. This website contains information relating to voting intentions taken from different surveys accross the United States from January 2012/2016/2020 to November 2012/2016/2020. Once the data is scraped, we parse it and aggregate it on a monthly basis and use it as a metric to determine overall national voting intentions in the United States in the months preceding the elections. 
