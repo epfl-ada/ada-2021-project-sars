@@ -20,7 +20,6 @@ It is often argued that former US president Donald Trump's upset victory in the 
   * Method 2: We perform text sentiment analysis on the quotations retrieved in the first method (on a presidential candidate basis) for each newspaper. See [Notebook](sentiment_analysis.ipynb):blue_book: for detailed information.
 * **Part 2**: Quantifying/Parsing voting intention data ✔️
   *  We scrape the website given in the Additional Analysis section. This website contains information relating to voting intentions taken from different surveys accross the United States from January 2012/2016/2020 to November 2012/2016/2020. See [Notebook](votes_intention.ipynb):orange_book: for detailed information.
-  *  
 * **Part 3**: Correlation Study :o:
   * We could use several statistical tests to determine whether there is correlation between voting intention and any of the two methods used to quantify media coverage of the three newspapers of interest. These tests may include computing pearson correlation coefficients between the two distributions and computing a statistical test for the null hypothesis that media coverage does not influence voting intentions, and so forth. 
 * **Part 4**: Comparing the elections :o:
