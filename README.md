@@ -32,8 +32,6 @@ It is often argued that former US president Donald Trump's upset victory in the 
   * We are interested in determining whether either of the media coverage methods proposed (occurence & text sentiment analysis) can be used to determine causality between certains topics of media coverage and the voting intentions. This can be determined through Granger causality tests i.e if media coverage forecasts vote intentions.
 
 
-Of course this observational study would require us to perform some sensitivity analysis on the media coverage methods described above to determine whether causality exists (for instances, by finding ways of matching different examples of media coverage). 
-
 ## Current Analysis Performed
 We have noted in our current analysis that the quotations for 2020 stops in April. This means that we will most likely have to eliminate 2020 from our study. Concerning 2016, we've notice that some of the months contain very little quotations (most likely due to the unbalanced nature of the quotebank dataset). We will decide in the upcoming days how we want to process this lack of data (i.e if we can find a suitable way to augment the data). 
 There are three notebooks: sentiment analysis, occurence analysis, scrapping polls. 
