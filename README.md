@@ -11,7 +11,8 @@ It is often argued that former US president Donald Trump's upset victory in the 
 * **Question 2**: How can we quantify/parse voting intentions? 
 * **Question 3** Can we find a correlation between voting intention and media coverage? Does the sentiment of the quotations have a stronger impact on the voting intention than the occurences of mentions (sentiment vs quantity)? 
 * **Question 4**: Can we determine similar behaviors in media coverage from 2012, 2016 and 2020 (considering the different outcomes in the elections). Can we determine a difference in the republican media coverage (based on occurences and sentiment) in 2012, 2016 and 2020 (since the arrival and departure of Trump)? 
-* **Question 5**: If we find correlation in our study, can we perform statistical tests to see if causality between media coverage and vote intention can be determined? Can we perform Topic Modeling on the quotations to determine whether in the labeled text sentiment analysis data, certain topics are reccurent and may have had an impact in the voting intentions?
+* **Question 5**: Can we perform Topic Modeling on the quotations to determine whether in the labeled text sentiment analysis data, certain topics are reccurent and may have had an impact in the voting intentions?
+* **Further Optional Analysis**: If we find correlation in our study, can we perform statistical tests to see if causality between media coverage and vote intention can be determined? 
 
 ## Methods
 * **Part 1**: Quantifying Media Coverage ✔️ 
@@ -24,9 +25,10 @@ It is often argued that former US president Donald Trump's upset victory in the 
   * We could use several statistical tests to determine whether there is correlation between voting intention and any of the two methods used to quantify media coverage of the three newspapers of interest. These tests may include computing pearson correlation coefficients between the two distributions and computing a statistical test for the null hypothesis that media coverage does not influence voting intentions, and so forth. 
 * **Part 4**: Comparing the elections :o:
   * Here too, we would compare the distributions of media coverages and voting intentions accross the years. We aim at finding repeated patterns between the coverage of certain media and the voting intentions that can be observed accross each election. Additionally, we aim at finding whether the arrival of Trump in the 2016 elections has altered the way media have covered the elections (this may be done by comparing the media coverage between the 2012 and 2016 elections, we believe that text sentiment analysis may give us interesting results here). This can be done by visually comparing the data processed in previous parts for each elections on  a monthly basis. We can further expand our comparison analysis by performing null hypothesis tests and regression analysis.
-*  **Part 5**: Correlation study :o:
+*  **Part 5**: Topic Modeling :o:
+  * We develop a topic modeling analysis to cluster the quotations per candidate. We then compare the topics retrieved for each candidate with voting intentions for a specific month prior to the election. We may have to use the Article-Centric version of Quotebank for better results. 
+* **Furthrt Optional Analysis**: :o:
   * We are interested in determining whether either of the media coverage methods proposed (occurence & text sentiment analysis) can be used to determine causality between certains topics of media coverage and the voting intentions. This can be determined through Granger causality tests i.e if media coverage forecasts vote intentions.
-  * Secondly, we develop a topic modeling analysis. Once we have divided our quotations of interest into different topics, we can use these topics to perform matching our data.... **TO FINISH BY FRIDAY**
 
 
 Of course this observational study would require us to perform some sensitivity analysis on the media coverage methods described above to determine whether causality exists (for instances, by finding ways of matching different examples of media coverage). 
