@@ -46,8 +46,8 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 * Polls 2012 elections January-November: https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!
 
 ## Proposed Timeline & Team Organization
-✔️: Done\
-:o:: To do
+✔️ - Done\
+:o: - To do
 * Raphael: Correlation study & visualization. Causality Testing
 * Simon: Works on parsing the data from the quotebank database for each newspaper of interest & building the occurences timeline. Causality Testing
 * Antoine: Works on the text sentiment anaxtlysis model. Causality Testing
