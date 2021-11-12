@@ -46,11 +46,16 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 * :chart_with_upwards_trend:[Polls 2016 elections January-November](https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html)
 * :chart_with_upwards_trend:[Polls 2012 elections January-November](https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!)
 
-## Project overview
+## Porject overview
 ![Optional Text](Visualizations/project_diagram.jpg)
 
 ## Proposed Timeline & Team Organization
+* Raphael: Correlation study & visualization. 
+* Simon: Works on parsing the data from the quotebank database for each newspaper of interest & building the occurences timeline. Causality Testing
+* Antoine: Works on the text sentiment anaxtlysis model.
+* Saad: Works on the web scraping and voting intention aggregation.
 
+Below the Gantt diagram that illustrates the project schedule. This chart lists the tasks to be performed on the vertical axis, and time intervals on the horizontal axis. The width of the horizontal bars in the graph shows the duration of each activity
 ![Optional Text](Visualizations/gant.JPG)
 
 ## Questions for the TAs
