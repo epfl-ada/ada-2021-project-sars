@@ -50,11 +50,6 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 ![Optional Text](Visualizations/project_diagram.jpg)
 
 ## Proposed Timeline & Team Organization
-* Raphael: Correlation study & visualization. 
-* Simon: Works on parsing the data from the quotebank database for each newspaper of interest & building the occurences timeline. Causality Testing
-* Antoine: Works on the text sentiment anaxtlysis model.
-* Saad: Works on the web scraping and voting intention aggregation.
-
 Below the Gantt diagram that illustrates the project schedule. This chart lists the tasks to be performed on the vertical axis, and time intervals on the horizontal axis. The width of the horizontal bars in the graph shows the duration of each Task.
 ![Optional Text](Visualizations/gant.JPG)
 
