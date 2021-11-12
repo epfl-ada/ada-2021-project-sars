@@ -4,7 +4,7 @@ Raphael Bonatti, Simon Spangenberg, Antoine Crettenand, Saad Charkaoui
 
 ## Introduction & Context
 
-It is often argued that former US president Donald Trump's upset victory in the 2016 elections significantly relates to his ability to monopolize the attention of mass media outlets [[1]](https://www.politico.com/magazine/story/2016/11/2016-election-trump-media-takeover-coverage-214419/). Although former president's polemical nature granted him a front row seat at almost every national newspaper in the months preceding the election [[2]](https://www.politico.com/magazine/story/2016/11/2016-election-trump-media-takeover-coverage-214419/), how can we precisely assess the influence that such incessant media coverage has had on the outcome of the elections? This it the question that we aim to answer in our study. We aim at using the quotebank corpus to analyse possible correlations and causations between the media coverage of three different major outlets with notoriously distinct political inclinations (CNN, BBC, NYTimes) and voting intentions in the months preceding each elections.
+It is often argued that former US president Donald Trump's upset victory in the 2016 elections significantly relates to his ability to monopolize the attention of mass media outlets [[1]](https://www.politico.com/magazine/story/2016/11/2016-election-trump-media-takeover-coverage-214419/). Although former president's polemical nature granted him a front row seat at almost every national newspaper in the months preceding the election [[2]](https://www.bbc.co.uk/news/36429660.amp), how can we precisely assess the influence that such incessant media coverage has had on the outcome of the elections? This it the question that we aim to answer in our study. We aim at using the quotebank corpus to analyse possible correlations and causations between the media coverage of three different major outlets with notoriously distinct political inclinations (CNN, BBC, NYTimes) and voting intentions in the months preceding each elections.
 
 ## Research Questions
 * **Question 1**: How can we quantify media coverage? 
@@ -36,13 +36,16 @@ Of course this observational study would require us to perform some sensitivity 
 We have noted in our current analysis that the quotations for 2020 stops in April. This means that we will most likely have to eliminate 2020 from our study. Concerning 2016, we've notice that some of the months contain very little quotations (most likely due to the unbalanced nature of the quotebank dataset). We will decide in the upcoming days how we want to process this lack of data (i.e if we can find a suitable way to augment the data). 
 There are three notebooks: sentiment analysis, occurence analysis, scrapping polls. 
 * :green_book:[media_coverage_occurences.ipynb](media_coverage_occurences.ipynb): includes parsing the data from quotebank dataset and quantitative study of candidate name occurence per newspaper. See notebook for detailed information.
-* :blue_book:[sentiment_analysis.ipynb](sentiment_analysis.ipynb):
-* :orange_book:[votes_intention.ipyng](votes_intention.ipynb):
+* :blue_book:[sentiment_analysis.ipynb](sentiment_analysis.ipynb): includes exploratory sentiment analysis with baseline implementation on the parsed [dataset](Data/). See notebook for detailed information.
+* :orange_book:[votes_intention.ipyng](votes_intention.ipynb):includes the scraping of the external data(polls of 2012/20216/2020), data cleaning and preprocessing, aggregating the polls by month to plot the timeseries per each candidate. See notebook for detailed information.
 
 ## Additional Datasets
 * :chart_with_upwards_trend:[Polls 2020 elections January-November](https://www.realclearpolitics.com/epolls/2020/president/us/general_election_trump_vs_biden-6247.html#polls)
 * :chart_with_upwards_trend:[Polls 2016 elections January-November](https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html)
 * :chart_with_upwards_trend:[Polls 2012 elections January-November](https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!)
+
+## Porject overview:
+![Optional Text](Visualizations/project_diagram.JPG)
 
 ## Proposed Timeline & Team Organization
 ✔️ - Done\
@@ -52,7 +55,7 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 * Antoine: Works on the text sentiment anaxtlysis model. Causality Testing
 * Saad: Works on the web scraping and voting intention aggregation. Causility Testing
 
-![Optional Text](Visualizations/gant_project.JPG)
+![Optional Text](Visualizations/gant.JPG)
 
 ## Questions for the TAs
 Do you have any advice on how we may handle the 2016 missing data? 
