@@ -52,7 +52,7 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 * Antoine: Works on the text sentiment anaxtlysis model. Causality Testing
 * Saad: Works on the web scraping and voting intention aggregation. Causility Testing
 
-![Optional Text](Visualizations/gant_project.JPG)
+![Optional Text](Visualizations/gant.JPG)
 
 ## Questions for the TAs
 Do you have any advice on how we may handle the 2016 missing data? 
