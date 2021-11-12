@@ -39,7 +39,7 @@ We have noted in our current analysis that the quotations for 2020 stops in Apri
 There are three notebooks: sentiment analysis, occurence analysis, scrapping polls. 
 * :green_book:[media_coverage_occurences.ipynb](media_coverage_occurences.ipynb): includes parsing the data from quotebank dataset and quantitative study of candidate name occurence per newspaper. See notebook for detailed information.
 * :blue_book:[sentiment_analysis.ipynb](sentiment_analysis.ipynb): includes exploratory sentiment analysis with baseline implementation on the parsed [dataset](Data/). See notebook for detailed information.
-* :orange_book:[votes_intention.ipyng](votes_intention.ipynb):includes the scraping of polls in 2012/20216/2020 (below the Additional Datsets), data cleaning and preprocessing, aggregating the polls by month to plot the timeseries per each candidate. See notebook for detailed information.
+* :orange_book:[votes_intention.ipyng](votes_intention.ipynb): includes the scraping of polls in 2012/20216/2020 (below the Additional Datsets), data cleaning and preprocessing, aggregating the polls by month to plot the timeseries per each candidate. See notebook for detailed information.
 
 ## Additional Datasets
 * :chart_with_upwards_trend:[Polls 2020 elections January-November](https://www.realclearpolitics.com/epolls/2020/president/us/general_election_trump_vs_biden-6247.html#polls)
