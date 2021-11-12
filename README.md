@@ -17,10 +17,11 @@ Does media coverage faithfully represent vote intentions? More specifically, we 
 
 ## Methods
 * **Part 1**: Quantifying Media Coverage ✔️ 
-  * Method 1: We parse the Quotebank dataset based on the three newspapers we focus our study on. Once this parsing is done, we parse each quotation based on the occurence of the following keywords in the quotation, urls or speaker columns of the dataset See [Notebook](media_coverage_occurences.ipynb)
-  * Method 2: We perform text sentiment analysis on the quotations retrieved in the first method (on a presidential candidate basis) for each newspaper. **Antoine Add Some More Here**
+  * Method 1: We parse the Quotebank dataset based on the three newspapers we focus our study on. Once this parsing is done, we parse each quotation based on the occurence of the following keywords in the quotation, urls or speaker columns of the dataset. See [Notebook](media_coverage_occurences.ipynb):green_book: for detailed information.
+  * Method 2: We perform text sentiment analysis on the quotations retrieved in the first method (on a presidential candidate basis) for each newspaper. See [Notebook](sentiment_analysis.ipynb):blue_book: for detailed information.
 * **Part 2**: Quantifying/Parsing voting intention data ✔️
-  *  We scrape the website given in the Additional Analysis section. This website contains information relating to voting intentions taken from different surveys accross the United States from January 2012/2016/2020 to November 2012/2016/2020. Once the data is scraped, we parse it and aggregate it on a monthly basis and use it as a metric to determine overall national voting intentions in the United States in the months preceding the elections. 
+  *  We scrape the website given in the Additional Analysis section. This website contains information relating to voting intentions taken from different surveys accross the United States from January 2012/2016/2020 to November 2012/2016/2020. See [Notebook](votes_intention.ipynb):orange_book: for detailed information.
+  *  
 * **Part 3**: Correlation Study :o:
   * We could use several statistical tests to determine whether there is correlation between voting intention and any of the two methods used to quantify media coverage of the three newspapers of interest. These tests may include computing pearson correlation coefficients between the two distributions and computing a statistical test for the null hypothesis that media coverage does not influence voting intentions, and so forth. 
 * **Part 4**: Comparing the elections :o:
@@ -35,17 +36,14 @@ Of course this observational study would require us to perform some sensitivity 
 ## Current Analysis Performed
 We do not have enough data for 2020, so we decided to focus on 2012 instead. Also BBC dataset may not be enough...
 There are three notebooks: sentiment analysis, occurence analysis, scrapping polls. 
-* data_occurences.ipynb: describe work done 
-* Antoine describe notebook and work done
-* Saad describe notebook and work done. 
-
-What do we see so far? In the occurence analysis
-
+* :orange_book:[media_coverage_occurences.ipynb](media_coverage_occurences.ipynb)
+* :blue_book:[sentiment_analysis.ipynb](sentiment_analysis.ipynb):
+* :orange_book:[votes_intention.ipyng](votes_intention.ipynb):
 
 ## Additional Datasets
-* Polls for the 2020 elections January-November: https://www.realclearpolitics.com/epolls/2020/president/us/general_election_trump_vs_biden-6247.html#polls
-* Polls for the 2016 elections January-November: https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html
-* Polls for the 2012 elections January-November: https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!
+* Polls 2020 elections January-November: https://www.realclearpolitics.com/epolls/2020/president/us/general_election_trump_vs_biden-6247.html#polls
+* Polls 2016 elections January-November: https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html
+* Polls 2012 elections January-November: https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!
 
 ## Proposed Timeline & Team Organization
 * Raphael: Correlation study & visualization. Causality Testing
@@ -58,4 +56,5 @@ Is it ok to use the 2012 Quotebank dataset?
 
 
 ## Additional Note
+Original idea taking from the following study. Our research aims to reproducing and expanding this study with the quotebank dataset. We believed that this research was ideal for ADA's semester project since it involves many of the topics covered in class: web scrapping/data retrieval, visualization, topic modeling, text sentiment analysis, correlation and causation study, etc.
 https://www.researchgate.net/publication/335908711_What_matters_context_or_sentiment_Analysing_the_influence_of_news_in_US_elections_using_Natural_Language_Processing
