@@ -15,6 +15,8 @@ It is often argued that former US president Donald Trump's upset victory in the 
 * **Further Optional Analysis**: If we find correlation in our study, can we perform statistical tests to see if causality between media coverage and vote intention can be determined? 
 
 ## Methods
+✔️ - Done\
+:o: - To do
 * **Part 1**: Quantifying Media Coverage ✔️ 
   * Method 1: We parse the Quotebank dataset based on the three newspapers we focus our study on(CNN, BBC, NYTimes). Once this parsing is done, we parse each quotation based on the occurence of the following keywords in the quotation, urls or speaker columns of the dataset. See [Notebook](media_coverage_occurences.ipynb):green_book: for detailed information.
   * Method 2: We perform text sentiment analysis on the quotations retrieved in the first method (on a presidential candidate basis) for each newspaper. See [Notebook](sentiment_analysis.ipynb):blue_book: for detailed information.
@@ -48,8 +50,6 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 ![Optional Text](Visualizations/project_diagram.jpg)
 
 ## Proposed Timeline & Team Organization
-✔️ - Done\
-:o: - To do
 * Raphael: Correlation study & visualization. Causality Testing
 * Simon: Works on parsing the data from the quotebank database for each newspaper of interest & building the occurences timeline. Causality Testing
 * Antoine: Works on the text sentiment anaxtlysis model. Causality Testing
