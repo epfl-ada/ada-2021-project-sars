@@ -32,29 +32,23 @@ It is often argued that former US president Donald Trump's upset victory in the 
   * We are interested in determining whether either of the media coverage methods proposed (occurence & text sentiment analysis) can be used to determine causality between certains topics of media coverage and the voting intentions. This can be determined through Granger causality tests i.e if media coverage forecasts vote intentions.
 
 
-Of course this observational study would require us to perform some sensitivity analysis on the media coverage methods described above to determine whether causality exists (for instances, by finding ways of matching different examples of media coverage). 
-
 ## Current Analysis Performed
 We have noted in our current analysis that the quotations for 2020 stops in April. This means that we will most likely have to eliminate 2020 from our study. Concerning 2016, we've notice that some of the months contain very little quotations (most likely due to the unbalanced nature of the quotebank dataset). We will decide in the upcoming days how we want to process this lack of data (i.e if we can find a suitable way to augment the data). 
 There are three notebooks: sentiment analysis, occurence analysis, scrapping polls. 
 * :green_book:[media_coverage_occurences.ipynb](media_coverage_occurences.ipynb): includes parsing the data from quotebank dataset and quantitative study of candidate name occurence per newspaper. See notebook for detailed information.
 * :blue_book:[sentiment_analysis.ipynb](sentiment_analysis.ipynb): includes exploratory sentiment analysis with baseline implementation on the parsed [dataset](Data/). See notebook for detailed information.
-* :orange_book:[votes_intention.ipyng](votes_intention.ipynb):includes the scraping of polls in 2012/20216/2020 (below the Additional Datsets), data cleaning and preprocessing, aggregating the polls by month to plot the timeseries per each candidate. See notebook for detailed information.
+* :orange_book:[votes_intention.ipyng](votes_intention.ipynb): includes the scraping of polls in 2012/20216/2020 (below the Additional Datsets), data cleaning and preprocessing, aggregating the polls by month to plot the timeseries per each candidate. See notebook for detailed information.
 
 ## Additional Datasets
 * :chart_with_upwards_trend:[Polls 2020 elections January-November](https://www.realclearpolitics.com/epolls/2020/president/us/general_election_trump_vs_biden-6247.html#polls)
 * :chart_with_upwards_trend:[Polls 2016 elections January-November](https://www.realclearpolitics.com/epolls/2016/president/us/general_election_trump_vs_clinton-5491.html)
 * :chart_with_upwards_trend:[Polls 2012 elections January-November](https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!)
 
-## Porject overview
+## Project overview
 ![Optional Text](Visualizations/project_diagram.jpg)
 
 ## Proposed Timeline & Team Organization
-* Raphael: Correlation study & visualization. Causality Testing
-* Simon: Works on parsing the data from the quotebank database for each newspaper of interest & building the occurences timeline. Causality Testing
-* Antoine: Works on the text sentiment anaxtlysis model. Causality Testing
-* Saad: Works on the web scraping and voting intention aggregation. Causility Testing
-
+Below the Gantt diagram that illustrates the project schedule. This chart lists the tasks to be performed on the vertical axis, and time intervals on the horizontal axis. The width of the horizontal bars in the graph shows the duration of each Task.
 ![Optional Text](Visualizations/gant.JPG)
 
 ## Questions for the TAs
@@ -62,4 +56,4 @@ Do you have any advice on how we may handle the 2016 missing data?
 
 
 ## Additional Note
-Original idea taking from the [following study](https://www.researchgate.net/publication/335908711_What_matters_context_or_sentiment_Analysing_the_influence_of_news_in_US_elections_using_Natural_Language_Processing). Our research aims to reproducing and expanding this study with the quotebank dataset. We believed that this research was ideal for ADA's semester project since it involves many of the topics covered in class: web scrapping/data retrieval, visualization, topic modeling, text sentiment analysis, correlation and causation study, etc.
+Original idea taking from the [following study](https://www.researchgate.net/publication/335908711_What_matters_context_or_sentiment_Analysing_the_influence_of_news_in_US_elections_using_Natural_Language_Processing). Our research aims to reproducing and expanding this study with the quotebank dataset. We believed that this research was ideal for ADA's semester project since it involves many of the topics covered in class: web scrapping/data retrieval, visualization, Unsupervised learning techniques (topic modeling and text sentiment analysis), correlation and causation study, etc.
