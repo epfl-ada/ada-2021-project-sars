@@ -57,3 +57,7 @@ Do you have any advice on how we may handle the 2016 missing data?
 
 ## Additional Note
 Original idea taking from the [following study](https://www.researchgate.net/publication/335908711_What_matters_context_or_sentiment_Analysing_the_influence_of_news_in_US_elections_using_Natural_Language_Processing). Our research aims to reproducing and expanding this study with the quotebank dataset. We believed that this research was ideal for ADA's semester project since it involves many of the topics covered in class: web scrapping/data retrieval, visualization, Unsupervised learning techniques (topic modeling and text sentiment analysis), correlation and causation study, etc.
+
+## timeline for milestone 3 : 
+* visualizations : - graphs of occurences, voting intention...
+* the main question : Does media coverage is correlated to voting intention? if yes, how ???
