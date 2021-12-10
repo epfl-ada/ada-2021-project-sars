@@ -24,6 +24,18 @@ It is often argued that former US president Donald Trump's upset victory in the 
   *  We scrape the website given in the Additional Analysis section. This website contains information relating to voting intentions taken from different surveys accross the United States from January 2012/2016/2020 to November 2012/2016/2020. See [Notebook](votes_intention.ipynb):orange_book: for detailed information.
 * **Part 3**: Correlation Study :o:
   * We could use several statistical tests to determine whether there is correlation between voting intention and any of the two methods used to quantify media coverage of the three newspapers of interest. These tests may include computing pearson correlation coefficients between the two distributions and computing a statistical test for the null hypothesis that media coverage does not influence voting intentions, and so forth. 
+
+**TO ADD**:
+* Aggregate the data by week instead of months and rescale the number of occurences divided by the total number of quotes during this week. 
+ * Example for BBC, clinton and week x. Grab from the dataset the total number of quotations from BBC in week x (this is number A). Then grab all the quotations in week x from BBC that refer to clinton. This is number B. Aggregation is then to divide B by A. 
+* First do a baseline study between the media coverage and voting intentions. Baseline (Pearson correlation coefficient). **Antoine already worked on this but used different data? -> Use Raphael's dataset**. Add also a regression analysis. Use only the media coverage and the voting intentions. 
+* Do a correlation study using the sentiment analysis. Use sentiment analysis as a covariate in the regression analysis. 
+* Be descriptive about the analysis so we can write about it in the website. 
+* Perform the correlation analysis on a newspaper basis. 
+* Optional: build a forecasting model - can we use the media coverage to forecast the voting intention of a certain week/month/timeframe. 
+* Conclusion
+* Future work (potential thing to say - maybe include topic modeling etc). 
+
 * **Part 4**: Comparing the elections :o:
   * Here too, we would compare the distributions of media coverages and voting intentions accross the years. We aim at finding repeated patterns between the coverage of certain media and the voting intentions that can be observed accross each election. Additionally, we aim at finding whether the arrival of Trump in the 2016 elections has altered the way media have covered the elections (this may be done by comparing the media coverage between the 2012 and 2016 elections, we believe that text sentiment analysis may give us interesting results here). This can be done by visually comparing the data processed in previous parts for each elections on  a monthly basis. We can further expand our comparison analysis by performing null hypothesis tests and regression analysis.
 * **Part 5**: Topic Modeling :o:
