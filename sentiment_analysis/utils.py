@@ -1,5 +1,11 @@
 import time
+import typing
 
+import numpy as np
+import sns as sns
+import torch
+from matplotlib import pyplot as plt
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from textblob import TextBlob
 import pandas as pd
 
@@ -151,7 +157,14 @@ def lemmatizer(text):
     return text
 
 
-def expand_quotations_with_polarity_subjectivity(df: pd.DataFrame, column: str = 'quotation', model: str="TextBlob"):
+# TODO Discuss the way to classify BERT's data
+def output_score(tokenizer, model, quote):
+    tensor = tokenizer.encode(quote, return_tensors='pt')
+    result = model(tensor)
+    return int(torch.argmax(result.logits)) + 1
+
+
+def expand_quotations_with_polarity_subjectivity(df: pd.DataFrame, column: str = 'quotation', modeln: str = "TextBlob"):
     """Sentiment Analysis implementation using a specified model. Default is TextBlob
 
     Args:
@@ -162,21 +175,62 @@ def expand_quotations_with_polarity_subjectivity(df: pd.DataFrame, column: str =
         pd.DataFrame: Original dataframe with appended polarity and subjectivity.
     """
     start = time.time()
-    if model == "TextBlob":
+    print(f'Processing sentiment analysis with {modeln}')
+    if modeln == "TextBlob":
         df['quotation_polarity'] = df[f'{column}'].map(lambda x: TextBlob(x).sentiment.polarity)
         df['quotation_subjectivity'] = df[f'{column}'].map(lambda x: TextBlob(x).sentiment.subjectivity)
-    elif model == "Vader":
+    elif modeln == "Vader":
         analyzer = SentimentIntensityAnalyzer()
         df['quotation_polarity'] = df[f'{column}'].map(lambda x: float(analyzer.polarity_scores(x)['compound']))
         # map to [-1, 1]
         nmin = df['quotation_polarity'].min()
         nmax = df['quotation_polarity'].max()
         df['quotation_polarity'] = df['quotation_polarity'].map(lambda x: (x - nmin) / nmax)
-
         df['quotation_subjectivity'] = df[f'{column}'].map(lambda x: 0)
+    elif modeln == 'BERT':
+        tokenizer = AutoTokenizer.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
+        model = AutoModelForSequenceClassification.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
+        df['quotation_polarity'] = df[f'{column}'].map(lambda x: output_score(tokenizer, model, x))
     else:
-        raise NameError(f'{model} is not a possible model. Choose from : TextBlob & Vader')
+        raise NameError(f'{modeln} is not a possible model. Choose from : TextBlob, BERTw & Vader')
     end = time.time() - start
-    print(f"Processed dataset {df.shape} with {model} in {end} seconds.")
+    print(f"Processed dataset {df.shape} with {modeln} in {end} seconds.")
 
     return df
+
+
+'''
+
+def display_frequency_distribution(df_obama_2012_sa, df_romney_2012_sa, df_trump_2016_sa, df_clinton_2016_sa, ):
+    fig, axes = plt.subplots(6, 1, figsize=(15, 20), sharey=True)
+
+    sns.histplot(df_obama_2012_sa['quotation_polarity'], ax=axes[0][0])
+    axes[0][0].set_title(f'Polarity distribution - 2012 - \'Obama\' - over {len(df_obama_2012_sa)} quotes')
+    sns.histplot(df_obama_2012_sa['quotation_subjectivity'], ax=axes[0][1])
+    axes[0][1].set_title(f'Subjectivity distribution - 2012 - \'Obama\' - over {len(df_obama_2012_sa)} quotes')
+
+    sns.histplot(df_romney_2012_sa['quotation_polarity'], ax=axes[1][0])
+    axes[1][0].set_title(f'Polarity distribution - 2012 - \'Romney\' - over {len(df_romney_2012_sa)} quotes')
+    sns.histplot(df_romney_2012_sa['quotation_subjectivity'], ax=axes[1][1])
+    axes[1][1].set_title(f'Subjectivity distribution - 2012 - \'Romney\' - over {len(df_romney_2012_sa)} quotes')
+
+    sns.histplot(df_trump_2016_sa['quotation_polarity'], ax=axes[2][0])
+    axes[2][0].set_title(f'Polarity distribution - 2016 - \'Trump\' - over {len(df_trump_2016_sa)} quotes')
+    sns.histplot(df_trump_2016_sa['quotation_subjectivity'], ax=axes[2][1])
+    axes[2][1].set_title(f'Subjectivity distribution - 2016 - \'Trump\' - over {len(df_trump_2016_sa)} quotes')
+
+    sns.histplot(df_clinton_2016_sa['quotation_polarity'], ax=axes[3][0])
+    axes[3][0].set_title(f'Polarity distribution - 2016 - \'Clinton\' - over {len(df_clinton_2016_sa)} quotes')
+    sns.histplot(df_clinton_2016_sa['quotation_subjectivity'], ax=axes[3][1])
+    axes[3][1].set_title(f'Subjectivity distribution - 2016 - \'Clinton\' - over {len(df_clinton_2016_sa)} quotes')
+
+    sns.histplot(df_trump_2020_sa['quotation_polarity'], ax=axes[4][0])
+    axes[4][0].set_title(f'Polarity distribution - 2020 - \'Trump\' - over {len(df_trump_2020_sa)} quotes')
+    sns.histplot(df_trump_2020_sa['quotation_subjectivity'], ax=axes[4][1])
+    axes[4][1].set_title(f'Subjectivity distribution - 2020 - \'Trump\' - over {len(df_trump_2020_sa)} quotes')
+
+    sns.histplot(df_biden_2020_sa['quotation_polarity'], ax=axes[5][0])
+    axes[5][0].set_title(f'Polarity distribution - 2020 - \'Biden\' - over {len(df_biden_2020_sa)} quotes')
+    sns.histplot(df_biden_2020_sa['quotation_subjectivity'], ax=axes[5][1])
+    axes[5][1].set_title(f'Subjectivity distribution - 2020 - \'Biden\' - over {len(df_biden_2020_sa)} quotes')
+'''
