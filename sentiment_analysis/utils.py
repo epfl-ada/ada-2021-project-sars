@@ -2,7 +2,7 @@ import time
 import typing
 
 import numpy as np
-import sns as sns
+import seaborn as sns
 import torch
 from matplotlib import pyplot as plt
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
@@ -103,7 +103,7 @@ def preprocess_data_for_sentiment_analysis(df: pd.DataFrame, tags=[]):
     return df
 
 
-def remove_punct(text: str, punctuation_string: str):
+def remove_punct(text: str, punctuation_string: str = punctuation_string):
     text = "".join([char for char in text if char not in punctuation_string])
     text = re.sub('[0-9]+', '', text)
     return text
