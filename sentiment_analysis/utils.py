@@ -1,3 +1,4 @@
+import datetime
 import time
 import typing
 
@@ -234,3 +235,54 @@ def display_frequency_distribution(df_obama_2012_sa, df_romney_2012_sa, df_trump
     sns.histplot(df_biden_2020_sa['quotation_subjectivity'], ax=axes[5][1])
     axes[5][1].set_title(f'Subjectivity distribution - 2020 - \'Biden\' - over {len(df_biden_2020_sa)} quotes')
 '''
+
+
+def average_polls_df_by_month(df, year=2020):
+    """
+    Temporary adapter for code in vote_intention.ipynb to be compatible with correlation_analysis_antoine.ipynb
+    :param df: dataframe of 2012, 2016 or 2020 polls
+    :param year: integer
+    :return: original array transformed
+    """
+
+    if year == 2012:
+        df = df[df['Date_start'] >= '2012-01-01']
+        df = df[df['Date_start'] < '2013-01-01']
+    elif year == 2016:
+        df = df[df['Date_start'] >= '2016-01-01']
+        df = df[df['Date_start'] < '2017-01-01']
+    elif year == 2020:
+        df = df[df['Date_start'] >= '2020-01-01']
+        df = df[df['Date_start'] < '2021-01-01']
+    else:
+        raise KeyError
+
+    df['Date_start'] = df['Date_start'].apply(
+        lambda x: datetime.datetime.strptime(x.split('-')[1], "%m").strftime("%b"))
+    df = df.groupby(df['Date_start']).mean()
+    return df
+
+def average_polls_df_by_week(df, year=2020):
+    """
+    Temporary adapter for code in vote_intention.ipynb to be compatible with correlation_analysis_antoine.ipynb
+    :param df: dataframe of 2012, 2016 or 2020 polls
+    :param year: integer
+    :return: original array transformed
+    """
+
+    if year == 2012:
+        df = df[df['Date_start'] >= '2012-01-01']
+        df = df[df['Date_start'] < '2013-01-01']
+    elif year == 2016:
+        df = df[df['Date_start'] >= '2016-01-01']
+        df = df[df['Date_start'] < '2017-01-01']
+    elif year == 2020:
+        df = df[df['Date_start'] >= '2020-01-01']
+        df = df[df['Date_start'] < '2021-01-01']
+    else:
+        raise KeyError
+
+    df['Date_start'] = df['Date_start'].apply(
+        lambda x: datetime.datetime.strptime(x.split('-')[1], "%m").isocalendar()[1])
+    df = df.groupby(df['Date_start'])
+    return df
