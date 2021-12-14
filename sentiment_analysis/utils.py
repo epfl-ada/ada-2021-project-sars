@@ -200,43 +200,6 @@ def expand_quotations_with_polarity_subjectivity(df: pd.DataFrame, column: str =
     return df
 
 
-'''
-
-def display_frequency_distribution(df_obama_2012_sa, df_romney_2012_sa, df_trump_2016_sa, df_clinton_2016_sa, ):
-    fig, axes = plt.subplots(6, 1, figsize=(15, 20), sharey=True)
-
-    sns.histplot(df_obama_2012_sa['quotation_polarity'], ax=axes[0][0])
-    axes[0][0].set_title(f'Polarity distribution - 2012 - \'Obama\' - over {len(df_obama_2012_sa)} quotes')
-    sns.histplot(df_obama_2012_sa['quotation_subjectivity'], ax=axes[0][1])
-    axes[0][1].set_title(f'Subjectivity distribution - 2012 - \'Obama\' - over {len(df_obama_2012_sa)} quotes')
-
-    sns.histplot(df_romney_2012_sa['quotation_polarity'], ax=axes[1][0])
-    axes[1][0].set_title(f'Polarity distribution - 2012 - \'Romney\' - over {len(df_romney_2012_sa)} quotes')
-    sns.histplot(df_romney_2012_sa['quotation_subjectivity'], ax=axes[1][1])
-    axes[1][1].set_title(f'Subjectivity distribution - 2012 - \'Romney\' - over {len(df_romney_2012_sa)} quotes')
-
-    sns.histplot(df_trump_2016_sa['quotation_polarity'], ax=axes[2][0])
-    axes[2][0].set_title(f'Polarity distribution - 2016 - \'Trump\' - over {len(df_trump_2016_sa)} quotes')
-    sns.histplot(df_trump_2016_sa['quotation_subjectivity'], ax=axes[2][1])
-    axes[2][1].set_title(f'Subjectivity distribution - 2016 - \'Trump\' - over {len(df_trump_2016_sa)} quotes')
-
-    sns.histplot(df_clinton_2016_sa['quotation_polarity'], ax=axes[3][0])
-    axes[3][0].set_title(f'Polarity distribution - 2016 - \'Clinton\' - over {len(df_clinton_2016_sa)} quotes')
-    sns.histplot(df_clinton_2016_sa['quotation_subjectivity'], ax=axes[3][1])
-    axes[3][1].set_title(f'Subjectivity distribution - 2016 - \'Clinton\' - over {len(df_clinton_2016_sa)} quotes')
-
-    sns.histplot(df_trump_2020_sa['quotation_polarity'], ax=axes[4][0])
-    axes[4][0].set_title(f'Polarity distribution - 2020 - \'Trump\' - over {len(df_trump_2020_sa)} quotes')
-    sns.histplot(df_trump_2020_sa['quotation_subjectivity'], ax=axes[4][1])
-    axes[4][1].set_title(f'Subjectivity distribution - 2020 - \'Trump\' - over {len(df_trump_2020_sa)} quotes')
-
-    sns.histplot(df_biden_2020_sa['quotation_polarity'], ax=axes[5][0])
-    axes[5][0].set_title(f'Polarity distribution - 2020 - \'Biden\' - over {len(df_biden_2020_sa)} quotes')
-    sns.histplot(df_biden_2020_sa['quotation_subjectivity'], ax=axes[5][1])
-    axes[5][1].set_title(f'Subjectivity distribution - 2020 - \'Biden\' - over {len(df_biden_2020_sa)} quotes')
-'''
-
-
 def average_polls_df_by_month(df, year=2020):
     """
     Temporary adapter for code in vote_intention.ipynb to be compatible with correlation_analysis_antoine.ipynb
@@ -261,6 +224,7 @@ def average_polls_df_by_month(df, year=2020):
         lambda x: datetime.datetime.strptime(x.split('-')[1], "%m").strftime("%b"))
     df = df.groupby(df['Date_start']).mean()
     return df
+
 
 def average_polls_df_by_week(df, year=2020):
     """
