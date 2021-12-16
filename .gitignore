@@ -3,3 +3,7 @@ Data/.DS_Store
 Data/preprocessed
 Quotebank
 *.png
+quotes-2019-nytimes.json.bz2
+.idea/ada-2021-project-sars.iml
+.idea/modules.xml
+*.pyc
