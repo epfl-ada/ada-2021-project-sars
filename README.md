@@ -21,7 +21,7 @@ It is often argued that former US president Donald Trump's upset victory in the 
   
 * **Part 2**: Quantifying/Parsing voting intention data ✔️
   *  We scrape the website given in the Additional Analysis section. This website contains information relating to voting intentions taken from different surveys accross the United States from January 2012/2016/2020 to November 2012/2016/2020. See [Notebook](votes_intention.ipynb):orange_book: for detailed information.
-* **Part 3.1**: Correlation Study :o:
+* **Part 3.1**: Correlation Study ✔️
   * We use the Spearman Rank Coefficient test to determine whether there is correlation between voting intention and any of the two methods used to quantify media coverage of the three newspapers of interest. We find that some newspapers (specifically BBC) potentially exhibit a correlation between the media coverage and voting intentions.  
   * We expand the previous correlation study with generated sentiments in this [notebook](sentiment_analysis/correlation_analysis_with_sentiment.ipynb).
 
@@ -61,4 +61,4 @@ Original idea taking from the [following study](https://www.researchgate.net/pub
 - Antoine: worked on the sentiment analysis (see sentiment analysis [folder](sentiment_analysis/)) and the correlation study involving sentiment analysis. 
 - Raphael: worked on the baseline correlation study and aggregating the retrieved data. See correlation analysis [notebook](correlation_analysis.ipynb) and polls date parsing [notebook](polls_date_parsing.ipynb)
 - Simon: worked on the media coverage parsing (see [notebook](media_coverage_occurences.ipynb)) and built the presentation website. 
-- Saad: worked on the voting intentions scrapper (see [notebook](votes_intention.ipynb) topic modeling and design of the website.
+- Saad: worked on the voting intentions scrapper (see [notebook](votes_intention.ipynb)) topic modeling and design of the website.
