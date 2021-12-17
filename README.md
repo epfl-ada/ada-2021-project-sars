@@ -2,7 +2,7 @@
 EPFL Fall Semester 2021-2022
 Raphael Bonatti, Simon Spangenberg, Antoine Crettenand, Saad Charkaoui
 
-Pesentation Link: click [here](https://simonspgn.github.io/ada_story/2021/12/11/ada-final.html)
+Presentation Link: click [here](https://simonspgn.github.io/ada_story/2021/12/11/ada-final.html)
 
 ## Abstract
 
