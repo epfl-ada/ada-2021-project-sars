@@ -39,7 +39,7 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 * :orange_book:[votes_intention.ipynb](votes_intention.ipynb): includes the scraping of polls in 2012/20216/2020 (below the Additional Datsets), data cleaning and preprocessing, aggregating the polls by month to plot the timeseries per each candidate. See notebook for detailed information.
 * :open_file_folder:[correlation_analysis](correlation_analysis/) directory. Includes the following notebooks:
   * :closed_book:[correlation_analysis.ipynb](correlation_analysis/correlation_analysis.ipynb): In this notebook we are interested in discovering if there is a relationship between the media coverage (by the newspapers) and the voting intention (for the elections of 2012, 2016 and 2020) and what kind relationship it is, in order to gain insights and form our conclusion. A baseline correlation study is performed. 
-  *  [correlation_analysis_with_sentiment.ipynb](correlation_analysis/correlation_analysis_with_sentiment.ipynb): In this notebook we perform a similar correlation study as in the baseline model, except that we now include sentiment as a covariate of our analysis. 
+  * :notebook:[correlation_analysis_with_sentiment.ipynb](correlation_analysis/correlation_analysis_with_sentiment.ipynb): In this notebook we perform a similar correlation study as in the baseline model, except that we now include sentiment as a covariate of our analysis. 
 
 ## Additional Datasets
 * :chart_with_upwards_trend:[Polls 2020 elections January-November](https://www.realclearpolitics.com/epolls/2020/president/us/general_election_trump_vs_biden-6247.html#polls)
