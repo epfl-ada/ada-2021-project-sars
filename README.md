@@ -2,6 +2,8 @@
 EPFL Fall Semester 2021-2022
 Raphael Bonatti, Simon Spangenberg, Antoine Crettenand, Saad Charkaoui
 
+Pesentation Link: click [here](https://simonspgn.github.io/ada_story/2021/12/11/ada-final.html)
+
 ## Abstract
 
 It is often argued that former US president Donald Trump's upset victory in the 2016 elections significantly relates to his ability to monopolize the attention of mass media outlets [[1]](https://www.politico.com/magazine/story/2016/11/2016-election-trump-media-takeover-coverage-214419/). Although former president's polemical nature granted him a front row seat at almost every national newspaper in the months preceding the election [[2]](https://www.bbc.co.uk/news/36429660.amp), how can we precisely assess the influence that such incessant media coverage has had on the outcome of the elections? This it the question that we aim to answer in our study. We aim at using the quotebank corpus to analyse possible correlations and causations between the media coverage of three different major outlets with notoriously distinct political inclinations (CNN, BBC, NYTimes) and voting intentions in the months preceding each elections.
@@ -52,9 +54,6 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 ## Proposed Timeline & Team Organization
 Below the Gantt diagram that illustrates the project schedule. This chart lists the tasks to be performed on the vertical axis, and time intervals on the horizontal axis. The width of the horizontal bars in the graph shows the duration of each Task.
 ![Optional Text](Visualizations/gant.JPG)
-
-## Questions for the TAs
-Do you have any advice on how we may handle the 2016 missing data? 
 
 
 ## Additional Note
