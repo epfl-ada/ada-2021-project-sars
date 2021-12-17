@@ -9,45 +9,29 @@ It is often argued that former US president Donald Trump's upset victory in the 
 ## Research Questions
 * **Question 1**: How can we quantify media coverage? 
 * **Question 2**: How can we quantify/parse voting intentions? 
-* **Question 3** Can we find a correlation between voting intention and media coverage? Does the sentiment of the quotations have a stronger impact on the voting intention than the occurences of mentions (sentiment vs quantity)? 
-* **Question 4**: Can we determine similar behaviors in media coverage from 2012, 2016 and 2020 (considering the different outcomes in the elections). Can we determine a difference in the republican media coverage (based on occurences and sentiment) in 2012, 2016 and 2020 (since the arrival and departure of Trump)? 
-* **Question 5**: Can we perform Topic Modeling on the quotations to determine whether in the labeled text sentiment analysis data, certain topics are reccurent and may have had an impact in the voting intentions?
-* **Further Optional Analysis**: If we find correlation in our study, can we perform statistical tests to see if causality between media coverage and vote intention can be determined? 
+* **Question 3.1** Can we find a correlation between voting intention and media coverage? Does the sentiment of the quotations have a stronger impact on the voting intention than the occurences of mentions (sentiment vs quantity)? 
+* **Question 3.2**: Can we determine similar behaviors in media coverage from 2012, 2016 and 2020 (considering the different outcomes in the elections). Can we determine a difference in the republican media coverage (based on occurences and sentiment) in 2012, 2016 and 2020 (since the arrival and departure of Trump)? 
+* **Further Optional Analysis**: Can we perform Topic Modeling on the quotations to determine whether in the labeled text sentiment analysis data, certain topics are reccurent and may have had an impact in the voting intentions?
 
 ## Methods
-✔️ - Done\
-:o: - To do
+
 * **Part 1**: Quantifying Media Coverage ✔️ 
   * Method 1: We parse the Quotebank dataset based on the three newspapers we focus our study on(CNN, BBC, NYTimes). Once this parsing is done, we parse each quotation based on the occurence of the following keywords in the quotation, urls or speaker columns of the dataset. See [Notebook](media_coverage_occurences.ipynb):green_book: for detailed information.
   * Method 2: We perform text sentiment analysis on the quotations retrieved in the first method (on a presidential candidate basis) for each newspaper. See [Notebook](sentiment_analysis/unsupervised_sentiment_analysis.ipynb):blue_book: for detailed information.
   
 * **Part 2**: Quantifying/Parsing voting intention data ✔️
   *  We scrape the website given in the Additional Analysis section. This website contains information relating to voting intentions taken from different surveys accross the United States from January 2012/2016/2020 to November 2012/2016/2020. See [Notebook](votes_intention.ipynb):orange_book: for detailed information.
-* **Part 3**: Correlation Study :o:
-  * We could use several statistical tests to determine whether there is correlation between voting intention and any of the two methods used to quantify media coverage of the three newspapers of interest. These tests may include computing pearson correlation coefficients between the two distributions and computing a statistical test for the null hypothesis that media coverage does not influence voting intentions, and so forth. 
+* **Part 3.1**: Correlation Study ✔️
+  * We use the Spearman Rank Coefficient test to determine whether there is correlation between voting intention and any of the two methods used to quantify media coverage of the three newspapers of interest. We find that some newspapers (specifically BBC) potentially exhibit a correlation between the media coverage and voting intentions.  
   * We expand the previous correlation study with generated sentiments in this [notebook](sentiment_analysis/correlation_analysis_with_sentiment.ipynb).
 
-**TO ADD**:
-* Aggregate the data by week instead of months and rescale the number of occurences divided by the total number of quotes during this week. 
- * Example for BBC, clinton and week x. Grab from the dataset the total number of quotations from BBC in week x (this is number A). Then grab all the quotations in week x from BBC that refer to clinton. This is number B. Aggregation is then to divide B by A. 
-* First do a baseline study between the media coverage and voting intentions. Baseline (Pearson correlation coefficient). **Antoine already worked on this but used different data? -> Use Raphael's dataset**. Add also a regression analysis. Use only the media coverage and the voting intentions. 
-* Do a correlation study using the sentiment analysis. Use sentiment analysis as a covariate in the regression analysis. 
-* Be descriptive about the analysis so we can write about it in the website. 
-* Perform the correlation analysis on a newspaper basis. 
-* Optional: build a forecasting model - can we use the media coverage to forecast the voting intention of a certain week/month/timeframe. 
-* Conclusion
-* Future work (potential thing to say - maybe include topic modeling etc). 
+* **Part 3.2**: Comparing the elections ✔️
+  * Here too, we compare the distributions of media coverages and voting intentions accross the years. We aim at finding repeated patterns between the coverage of certain media and the voting intentions that can be observed accross each election. Additionally, we aim at finding whether the arrival of Trump in the 2016 elections has altered the way media have covered the elections (this may be done by comparing the media coverage between the 2012 and 2016 elections, we believe that text sentiment analysis may give us interesting results here). This is done by visually comparing the data processed in previous parts for each elections on a monthly/weekly basis. We can further expand our comparison analysis by performing null hypothesis tests and regression analysis.
+* **Further Optional Analysis**: Topic Modeling ✔️
+  * We develop a topic modeling analysis to cluster the quotations per candidate. We then compare the topics retrieved for each candidate with voting intentions for a specific month prior to the election. 
 
-* **Part 4**: Comparing the elections :o:
-  * Here too, we would compare the distributions of media coverages and voting intentions accross the years. We aim at finding repeated patterns between the coverage of certain media and the voting intentions that can be observed accross each election. Additionally, we aim at finding whether the arrival of Trump in the 2016 elections has altered the way media have covered the elections (this may be done by comparing the media coverage between the 2012 and 2016 elections, we believe that text sentiment analysis may give us interesting results here). This can be done by visually comparing the data processed in previous parts for each elections on  a monthly basis. We can further expand our comparison analysis by performing null hypothesis tests and regression analysis.
-* **Part 5**: Topic Modeling :o:
-  * We develop a topic modeling analysis to cluster the quotations per candidate. We then compare the topics retrieved for each candidate with voting intentions for a specific month prior to the election. We may have to use the Article-Centric version of Quotebank for better results. 
-* **Further Optional Analysis**: :o:
-  * We are interested in determining whether either of the media coverage methods proposed (occurence & text sentiment analysis) can be used to determine causality between certains topics of media coverage and the voting intentions. This can be determined through Granger causality tests i.e if media coverage forecasts vote intentions.
-
-
-## Current Analysis Performed
-We have noted in our current analysis that the quotations for 2020 stops in April. This means that we will most likely have to eliminate 2020 from our study. Concerning 2016, we've notice that some of the months contain very little quotations (most likely due to the unbalanced nature of the quotebank dataset). We will decide in the upcoming days how we want to process this lack of data (i.e if we can find a suitable way to augment the data). 
+## Analysis Performed
+We have noted in our analysis that the quotations for 2020 stops in April. As such, we decide to focus only on the months of January to April for the 2020 elections. Concerning 2016, we've noticed that some of the months contain very little quotations (most likely due to the unbalanced nature of the quotebank dataset). Here too, we decide to only conduct our study on the months for which we have enough data (i.e July, August, September). 
 There are three notebooks: sentiment analysis, occurence analysis, scrapping polls. 
 * :green_book:[media_coverage_occurences.ipynb](media_coverage_occurences.ipynb): includes parsing the data from quotebank dataset and quantitative study of candidate name occurence per newspaper. See notebook for detailed information.
 * :blue_book:[sentiment_analysis.ipynb](sentiment_analysis/unsupervised_sentiment_analysis.ipynb): includes exploratory sentiment analysis with baseline implementation on the parsed [dataset](Data/). See notebook for detailed information. Additionnaly we provide another [notebook](sentiment_analysis/exploratory_data_analysis.ipynb) for exploratory data analysis of the data generated by the sentiment analysis.
@@ -60,7 +44,7 @@ There are three notebooks: sentiment analysis, occurence analysis, scrapping pol
 * :chart_with_upwards_trend:[Polls 2012 elections January-November](https://www.realclearpolitics.com/epolls/2012/president/us/general_election_romney_vs_obama-1171.html#!)
 
 ## Project overview
-![Optional Text](Visualizations/project_diagram.jpg)
+![Optional Text](Visualizations/project-diagram.png)
 
 ## Proposed Timeline & Team Organization
 Below the Gantt diagram that illustrates the project schedule. This chart lists the tasks to be performed on the vertical axis, and time intervals on the horizontal axis. The width of the horizontal bars in the graph shows the duration of each Task.
@@ -73,6 +57,8 @@ Do you have any advice on how we may handle the 2016 missing data?
 ## Additional Note
 Original idea taking from the [following study](https://www.researchgate.net/publication/335908711_What_matters_context_or_sentiment_Analysing_the_influence_of_news_in_US_elections_using_Natural_Language_Processing). Our research aims to reproducing and expanding this study with the quotebank dataset. We believed that this research was ideal for ADA's semester project since it involves many of the topics covered in class: web scrapping/data retrieval, visualization, Unsupervised learning techniques (topic modeling and text sentiment analysis), correlation and causation study, etc.
 
-## timeline for milestone 3 : 
-* visualizations : - graphs of occurences, voting intention...
-* the main question : Does media coverage is correlated to voting intention? if yes, how ???
+## Work Repartition:
+- Antoine: worked on the sentiment analysis (see sentiment analysis [folder](sentiment_analysis/)) and the correlation study involving sentiment analysis. 
+- Raphael: worked on the baseline correlation study and aggregating the retrieved data. See correlation analysis [notebook](correlation_analysis.ipynb) and polls date parsing [notebook](polls_date_parsing.ipynb)
+- Simon: worked on the media coverage parsing (see [notebook](media_coverage_occurences.ipynb)) and built the presentation website. 
+- Saad: worked on the voting intentions scrapper (see [notebook](votes_intention.ipynb)) topic modeling and design of the website.
